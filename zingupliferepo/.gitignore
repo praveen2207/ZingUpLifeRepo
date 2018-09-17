@@ -1,0 +1,13 @@
+/nbproject/private/
+/asm/application/logs/
+application/logs/log-2017-03-30.php
+application/config/database-live.php
+application/config/config-live.php
+application/logs/log-2017-03-31.php
+/application/logs/
+.htaccess
+.htaccess
+.vscode
+application/ci_sessions/
+application/views/assessment/includes/.LCKheader.php~
+assets/uploads/

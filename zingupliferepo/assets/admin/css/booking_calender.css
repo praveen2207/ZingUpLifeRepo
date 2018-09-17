@@ -1,0 +1,65 @@
+.datepicker-days .date .datepicker table tr td.new,.date .datepicker table tr td.old,.datepicker-days .date .datepicker table tr td.new,.date .datepicker table tr td.new{visibility:hidden;}
+.datepicker .datepicker-days table tr td.activeClass.active,.datepicker .datepicker-days table tr td.activeClass{background:green;border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;color:#fff;}
+.datepicker .datepicker-days table tr td.activeClass{background:green;color:#fff;}
+.datepicker .datepicker-days table tr td.nonactiveClass.active,.datepicker .datepicker-days table tr td.nonactiveClass{background:#ccc;border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;color:#2a2a2a;}
+.datepicker .datepicker-days table tr td.activeClass.active{background:blue;border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;color:#fff;}
+.smedate .ui-state-disabled a{background:#d9d9d9 none repeat scroll 0 0;border-radius:58px;color:#000;opacity:1;}
+.smedate .ui-state-available a{background:#ffc815 none repeat scroll 0 0;border-radius:58px;color:#000;opacity:1;}
+.smedate .ui-state-available a.ui-state-active{background:#4bc850!important;}
+.btn-login:hover{background-color:transparent;color:#000;border:1px solid #f39c12;}
+.available{background-color:#ffc815;color:#fff;}
+.booked{background-color:#d9d9d9;color:#fff;}
+.blocked{background-color:red;color:#fff;}
+.timeAcitve{background-color:#009746 !important;color:#fff;}
+.ui-datepicker table{border-collapse:collapse;font-size:14px;}
+.smedate .ui-datepicker-header{background:#fff;border:0;}
+.smedate .ui-datepicker-title{color:#16749f;font-size:19px;}
+.smedate .ui-datepicker th{font-weight:400;color:#2a2a2a;}
+.smedate .ui-state-default,.ui-widget-content .ui-state-default{background:#fff;border:0;text-align:center;}
+.smedate .ui-widget-header .ui-icon{background-image:url(../../experts_new/img/chevron-left-right.png);cursor:pointer;}
+.smedate .ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover{background:#fff;box-shadow:none;border:0;}
+.smedate .ui-icon-circle-triangle-e{background-position:-53px -24px;}
+.smedate .ui-icon{width:28px;height:53px;}
+.smedate .ui-icon-circle-triangle-w{background-position:0 -21px;}
+.smedate .ui-datepicker.ui-datepicker-multi{border:0;width:60em!important;}
+.smedate .ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{top:115px;}
+.smedate .ui-datepicker .ui-datepicker-prev span{left:-10px;}
+.smedate .ui-datepicker .ui-datepicker-next span{left:30px;}
+.smedate .ui-datepicker-multi .ui-datepicker-group table{width:90%;}
+.smedate .ui-datepicker td{padding:2px;}
+.avaBox>ul{list-style:none;margin:0;padding:0;}
+.avaBox>ul>li{float:left;padding:0 10px;}
+.avaBox>ul>li>img{margin-right:5px;}
+.avaBox{display:0;height:auto;overflow:hidden;padding:10px 0 10px 35px;}
+.timeSlot{border-top:1px solid #cdcdcd;text-align:center;padding:20px;}
+.date.dashDate.smedate{margin:0 10px!important;padding:0 15px 15px;}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{background:#4bc850;border-radius:50%;}
+.chatTab .nav-tabs{border-bottom:0;}
+.bookCall div,.bookCall ul,.bookCall li,.tab-pane div{clear:none;}
+.bookCall li img{display:inline;}
+//llll
+.date{padding:15px 90px;}
+.time{padding:15px;}
+.dateTime>h3,.customerBox>h3,.paymentBox h3{border-bottom:1px solid #cdcdcd;margin-top:10px;padding-bottom:5px;font-weight:600;}
+.customerBox>h3,.paymentBox h3{font-size:20px;}
+.date .datepicker-switch{color:#3563ae!important;font-weight:400!important;font-size:24px!important;}
+.date .prev,.date .next{font-size:40px!important;font-weight:400!important;color:#009746!important;}
+.date .datepicker .datepicker-switch:hover,.date .datepicker .next:hover,.date .datepicker .prev:hover,.date .datepicker tfoot tr th:hover{background-color:transparent;}
+.date .datepicker table tr td,.date .datepicker table tr th{font-size:14px;font-weight:400;}
+.date .datepicker table tr th{color:#777;}
+.date .datepicker table tr td.day:hover,.date .datepicker table tr td.focused{background:#ffc815;}
+.datepicker table tr td.active.active,.date .datepicker table tr td.active.active:hover{background:#ffc815;border-radius:50%;-ms-border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;color:#2a2a2a;}
+.date .datepicker table tr td.new,.date .datepicker table tr td.old{color:transparent;}
+.date .datepicker table tr td.new:hover,.date .datepicker table tr td.old:hover{background:transparent;}
+.datepicker table tr td.active.active{background-color:#fff;border-color:#285e8e;}
+.colorGreen,.colorGreen:hover,.colorGreen:focus{color:#009746;}
+.colorGreen:hover{text-decoration:none;}
+.samDate h4{text-align:center;font-size:18px;font-weight:400;}
+.ui-datepicker td span,.ui-datepicker td a{padding:2px!important;}
+.avaBox ul li,.timeSlot span{font-size:17px;}
+.services p.er-msg{font-size:14px;margin-left:30px;}
+.timeBtn{box-shadow:none;border-radius:3px;-ms-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background-color:transparent;border:1px solid #009746;font-weight:100;outline:none!important;}
+.timeAcitve:hover{color:#fff;}
+.nextbtn01show{display:block;float:right;margin-top:3px;}
+.text_chat,.audio_chat,.video_chat,.nextbtn01{display:none;}
+.date .datepicker.datepicker-inline,.date .table-condensed{width:100%;}

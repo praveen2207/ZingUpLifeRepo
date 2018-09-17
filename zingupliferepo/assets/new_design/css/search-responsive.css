@@ -1,0 +1,130 @@
+@media (max-width: 1199px) {
+	.new-banner-content .banner-content-inner {
+		padding: 5px 12px 2px;
+	}
+	
+	.new-banner-content .banner-content-inner .location-field {
+		width: 29%;	
+	}
+	
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 32%	
+	}
+}
+
+@media (max-width: 991px) {
+
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.new-banner-content .banner-content-inner .location-field {
+		width: 42%;
+	}
+	
+	.new-banner-content .banner-content-inner .location-button {
+		width: 15%;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	
+	.banner-content {
+		position: relative !important;
+		padding: 30px !important;
+	}
+	
+	.new-banner-content .container {
+		padding: 0;
+		width: 100%;
+	}
+
+	.banner-content-inner .new-style .location-field input,
+	.new-banner-content .banner-content-inner .location-button,
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 90% !important;
+		float: right;
+		text-align: left;
+	}
+	
+	.new-style .location-mark input {
+		margin-right: 0;
+	}
+	
+	.new-style .location-mark:before {
+		right: 86%;
+	}
+	
+	.new-banner-content .banner-content-inner .location-field {
+		text-align: left;	
+	}
+	
+	.new-banner-content .banner-content-inner .new-style .location-field.location-mark span {
+		margin-left: 0;
+	}
+	
+	.location-field, .location-button {
+		width: 100% !important;
+	}
+	
+	.banner-content-inner .new-style .location-field.location-mark input {
+		margin-right: 0;	
+	}
+
+}
+
+@media (max-width: 550px){
+	
+	.banner-content-inner .new-style .location-field input,
+	.new-banner-content .banner-content-inner .location-button,
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 85% !important;
+	}
+	
+	.new-style .location-mark:before {
+		right: 79.5%;
+	}	
+	
+}
+
+
+@media (max-width: 434px) {
+	
+	.banner-content-inner .new-style .location-field input ,
+	.new-banner-content .banner-content-inner .location-button,
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 75% !important;
+	}
+	
+	.new-style .location-mark:before {
+		right: 68.5%;
+	}
+	
+	.new-banner-content .banner-content-inner .find-text.location-field {
+		width: 100% !important;
+		margin-bottom: 3px;
+	}
+	
+}
+
+@media (max-width: 383px) {
+	.banner-content {
+		padding: 9px !important;	
+	}
+	
+	.banner-content-inner .new-style .h-arrow {
+		margin-left: 12px !important;	
+	}
+}
+
+@media (max-width: 333px) {
+	.new-banner-content .banner-content-inner {
+		padding: 5px 5px 2px;
+	}
+	
+	.new-style .location-mark:before {
+		right: 67.5%;
+	}
+}

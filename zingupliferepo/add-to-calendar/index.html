@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Joshua Mustill">
+<title>Add To Calendar Examples</title>
+<link href="magnific-popup.css" type="text/css" rel="stylesheet" media="all">
+<style type="text/css">
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+a {
+	color: blue;
+}
+.event {
+	border: 1px dashed #999999;
+	padding: 10px;
+	margin: 10px 0;
+}
+.date {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #333;
+}
+.border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h2.full-underline {
+	border-bottom: solid 1px #666666;
+}
+strong.veryi {
+	font-size: 1.6em;
+}
+.toc-ul {
+	width: 100%;
+	list-style: none;
+	border-bottom: 2px solid #666;
+}
+.toc-li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+pre {
+	white-space: pre-wrap;
+	background: #FCFCFC;
+	border: solid 1px #CCCCCC;
+	padding: 5px;
+	word-wrap: break-word;
+}
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+textarea.text-field {
+	width: 100%;
+	max-width: 380px;
+	resize: vertical;
+	margin-top: 15px;
+}
+#encode-output {
+	margin: 10px;
+	border: 1px solid #666;
+	padding: 15px;
+	border-radius: 5px;
+	background: #F0F0F0;
+}
+.image-drop-shadow {
+	padding: 5px;
+	border: solid 1px #EFEFEF;
+}
+a:hover img.image-drop-shadow {
+	border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+}
+#screenshot-div {
+	text-align: center;
+	display: table-cell;
+}
+#screenshot-div a {
+	vertical-align: top;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+footer#bottom {
+	border-top: 1px solid #D6D6D6;
+	font-size: 0.8em;
+	width: 100%;
+}
+#left-footer {
+	float: left;
+}
+#right-footer {
+	float: right;
+}
+@media screen and (max-width: 320px) {
+	#left-footer, #right-footer {
+		float: none;
+	}
+}
+</style>
+</head>
+<body>
+<div class="toc">
+<ul class="toc-ul clearfix border-box">
+    	<li class="toc-li"><a href="#introduction">Introduction</a></li>
+    	<li class="toc-li"><a href="#url">URL Parameters</a></li>
+        <li class="toc-li"><a href="#examples">Examples</a></li>
+        <li class="toc-li"><a href="#screenshots">Screenshots</a></li>
+    </ul>
+</div>
+<h2 id="introduction">Introduction</h2>
+<p>This script will allow you to add events to either Apple's iCal/Calendar (Mac or iPhone/iPad), Outlook 2007 (.ics file) and Google Calendar.</p>
+<p>Simply copy one of the examples below into your web page and adjust the title, and start time accordingly (these are the only two required parameters).</p>
+<p>Make sure that <code>addToCalendar.php</code> is either in the same directory as your links or that you correctly adjust the relative path in the <code>href</code> section.</p>
+<h2 id="url">URL Parameters to Be Set</h2>
+<ul>
+	<li>format - (<strong>required</strong>; &quot;ical&quot; or &quot;google&quot;)</li>
+    <li>title - the title of your event (<strong>required</strong>)</li>
+    <li>start - the date/time that the event starts (<strong>required</strong>; YYYY-MM-DD+H:i:s format; the &quot;+&quot; since it will be passed in the URL)</li>
+    <li>finish (<em>optional</em>; can use &quot;length&quot; instead)</li>
+    <li>length (<em>optional</em>; defaults to $defaultEventLength [set in addToCalendar.php])</li>
+    <li>location - where the event is taking place (<em>optional</em>)</li>
+    <li>url - the URL of your Event Page (<em>optional</em>)</li>
+    <li>imgurl - the URL of the image attachment (<em>optional</em>; e.g. a map using Google's Static Map API; <a href="#imgurl">example below</a>)</li>
+<li>imgname - the name of the image file (defaults to staticmap.png; don't forget the <strong>.png</strong> extension!)</li>
+</ul>
+<strong class="veryi">Make sure you <strong>urlencode</strong> all of the above variables since they will be passed in the URL.</strong><br>
+<textarea id="url-encode" placeholder="Paste text here to have it URL-encoded" class="text-field"></textarea>
+<div id="encode-output"></div>
+<div class="event" id="examples">
+<h2 class="full-underline">Simple Setup</h2>
+<h4>Event 1 - Just Title and Date</h4>
+<p>Where possible, pass the date in the URL in YYYY-MM-DD H:i:s (e.g. 2013-09-16 16:06:00) format. If this is not possible then I would advise using the PHP <a href="http://www.php.net/manual/en/datetime.createfromformat.php" target="_blank">createFromFormat</a> function to make it so.</p>
+    <span class="date">Wednesday 18th September 2013 at 7pm</span><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%201%20-%20Just%20Title%20and%20Date&amp;start=2013-09-18+19%3A00%3A00">Add to iCal</a><br>
+<a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%201%20-%20Just%20Title%20and%20Date&amp;start=2013-09-18+19%3A00%3A00" target="_blank">Add to Google Calendar</a>
+	<pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%201%20-%20Just%20Title%20and%20Date&amp;amp;start=2013-09-18+19%3A00%3A00&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%201%20-%20Just%20Title%20and%20Date&amp;amp;start=2013-09-18+19%3A00%3A00&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+</div>
+<div class="event">
+    <h2 class="full-underline">Start and Finish Time</h2>
+    <h4>Event 2A - Event Length Set</h4>
+    <p>In this example, I have set the length of the event to 3 hours.</p>
+    <span class="date">Wednesday 18th September 2013 from 7pm (lasts 3 hours)</span><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%202A%20-%20Event%20Length%20Set&amp;start=2013-09-18+19%3A00%3A00&amp;length=3">Add to iCal</a><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%202A%20-%20Event%20Length%20Set&amp;start=2013-09-18+19%3A00%3A00&amp;length=3" target="_blank">Add to Google Calendar</a>
+    <pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%202A%20-%20Event%20Length%20Set&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;length=3&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%202A%20-%20Event%20Length%20Set&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;length=3&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+    <h4>Event 2B - Finish Time Set</h4>
+    <p>But in this one, the end time of the date is set in the same way as the &quot;start&quot; time.</p>
+    <span class="date">Wednesday 18th September 2013 from 7pm until Thursday 19th September 2013 1am</span><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%202B%20-%20Finish%20Time%20Set&amp;start=2013-09-18+19%3A00%3A00&amp;finish=2013-09-19+01%3A00%3A00">Add to iCal</a><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%202B%20-%20Finish%20Time%20Set&amp;start=2013-09-18+19%3A00%3A00&amp;finish=2013-09-19+01%3A00%3A00" target="_blank">Add to Google Calendar</a>
+    <pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%202B%20-%20Finish%20Time%20Set&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;finish=2013-09-19+01%3A00%3A00&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%202B%20-%20Finish%20Time%20Set&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;finish=2013-09-19+01%3A00%3A00&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+</div>
+<div class="event">
+<h2 class="full-underline">Location and URL</h2>
+<h4>Event 3 - Location and URL</h4>
+    <p>This example will pass on the location to iCal or Google Calendar, as well as a URL (perhaps to your Facebook event page).</p>
+    <span class="date">Wednesday 18th September 2013 at 7pm</span><br>
+    <span class="date">At 1600 Pennsylvania Ave NW, Washington, DC</span><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%203%20-%20Location%20and%20URL&amp;start=2013-09-18+19%3A00%3A00&amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar">Add to iCal</a><br>
+<a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%203%20-%20Location%20and%20URL&amp;start=2013-09-18+19%3A00%3A00&amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar" target="_blank">Add to Google Calendar</a>
+	<pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%203%20-%20Location%20and%20URL&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%203%20-%20Location%20and%20URL&amp;amp;start=2013-09-18+19%3A00%3A00&amp;amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+</div>
+<div class="event">
+    <h2 class="full-underline" id="imgurl">Advanced - Include Image (Google Map)</h2>
+    <h4>Event 4A - All of the above Plus Map (using Coordinates)!</h4>
+<p>I will be using the <a href="https://developers.google.com/maps/documentation/staticmaps/" target="_blank">Google Static Maps API</a> to generate a unique map and embed it in the event (iCal only) as a PNG image. This method can embed any image (much more easily) as shown below.</p>
+    <span class="date">Monday 14th September 2013 at 7pm</span><br>
+    <span class="date">At Cambridge Union Building, UK</span><br>
+	<a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%204A%20-%20Map&amp;start=2013-09-14+19%3A00%3A00&amp;loc=Cambridge+Union+Building%2C%20UK&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&amp;imgurl=http%3A%2F%2Fmaps.googleapis.com%2Fmaps%2Fapi%2Fstaticmap%3Fsensor%3Dfalse%26center%3D52.208562%2C0.119406%26zoom%3D16%26size%3D600x400%26maptype%3Droadmap%26markers%3Dcolor%3Ablue%7C52.208562%2C0.119406">Add to iCal</a><br>
+	<a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%204A%20-%20Map&amp;start=2013-09-14+19%3A00%3A00&amp;loc=Cambridge+Union+Building%2C%20UK&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar" target="_blank">Add to Google Calendar</a>
+    <pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%204A%20-%20Map&amp;amp;start=2013-09-14+19%3A00%3A00&amp;amp;loc=Cambridge+Union+Building%2C%20UK&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&amp;amp;imgurl=http%3A%2F%2Fmaps.googleapis.com%2Fmaps%2Fapi%2Fstaticmap%3Fsensor%3Dfalse%26center%3D52.208562%2C0.119406%26zoom%3D16%26size%3D600x400%26maptype%3Droadmap%26markers%3Dcolor%3Ablue%7C52.208562%2C0.119406&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%204A%20-%20Map&amp;amp;start=2013-09-14+19%3A00%3A00&amp;amp;loc=Cambridge+Union+Building%2C%20UK&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+    <h4>Event 4B - Any Image</h4>
+<p>This example uses the <strong>imgurl</strong> parameter to pass on the URL of an image to the addToCalendar script. We also employ the use of the <strong>imgname</strong> parameter to name our image file. (Don't forget the .png extension!)</p>
+    <span class="date">Monday 14th September 2013 at 7pm</span><br>
+    <span class="date">At 1600 Pennsylvania Ave NW, Washington, DC</span><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=ical&amp;fn=Your%20Site%20Event&amp;title=Event%204A%20-%20Map&amp;start=2013-09-14+19%3A00%3A00&amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&amp;imgurl=http%3A%2F%2Fjemwebdesign.co.uk%2Fimages%2Flogo-only.png&amp;imgname=Logo.png">Add to iCal</a><br>
+    <a class="add-cal-link" href="addToCalendar.php?format=google&amp;fn=Your%20Site%20Event&amp;title=Event%204B%20-%20Image&amp;start=2013-09-14+19%3A00%3A00&amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar" target="_blank">Add to Google Calendar</a>
+    <pre class="highlight border-box"><code>&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=ical&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%204A%20-%20Map&amp;amp;start=2013-09-14+19%3A00%3A00&amp;amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&amp;amp;imgurl=http%3A%2F%2Fjemwebdesign.co.uk%2Fimages%2Flogo-only.png&amp;amp;imgname=Logo.png&quot;&gt;Add to iCal&lt;/a&gt;&lt;br&gt;
+&lt;a class=&quot;add-cal-link&quot; href=&quot;addToCalendar.php?format=google&amp;amp;fn=Your%20Site%20Event&amp;amp;title=Event%204B%20-%20Image&amp;amp;start=2013-09-14+19%3A00%3A00&amp;amp;loc=1600%20Pennsylvania%20Ave%20NW%2C%20Washington%2C%20DC&amp;amp;url=http%3A%2F%2Fjemwebdesign.co.uk%2Fprojects%2Fadd-to-calendar&quot; target=&quot;_blank&quot;&gt;Add to Google Calendar&lt;/a&gt;</code></pre>
+</div>
+<h2 id="screenshots">Screenshots</h2>
+<div id="screenshot-div">
+    <a href="images/google-cal.png" class="popup-link" title="Google Calendar"><img src="images/google-cal.m.png" width="300" height="208" alt="Google Calendar" class="image-drop-shadow"></a>
+    <a href="images/ical-cal.png" class="popup-link" title="iCal (Mac) Calendar"><img src="images/ical-cal.m.png" width="300" height="258" alt="Google Calendar" class="image-drop-shadow"></a>
+    <a href="images/iphone-cal.png" class="popup-link" title="iPhone Calendar"><img src="images/iphone-cal.m.png" width="300" height="262" alt="iPhone Calendar" class="image-drop-shadow"></a>
+</div>
+<footer id="bottom" class="clear-fix">
+    <div id="left-footer">
+        <p>Copyright &copy; Joshua Mustill 2013.</p>
+        <p>Designed by <a href="http://jemwebdesign.co.uk" target="_blank">Joshua Mustill</a>.</p>
+    </div>
+    <div id="right-footer">
+        <p><a href="#">Sitemap</a></p>
+    </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script type="text/javascript" src="magnific-popup.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	if($('pre.highlight').length != 0) {
+		$.getScript('http://code.jquery.com/jquery-migrate-1.2.1.js')
+		.done(function() {
+			$.getScript('http://balupton.github.com/jquery-syntaxhighlighter/scripts/jquery.syntaxhighlighter.min.js')
+				.done(function() {
+					$.SyntaxHighlighter.init();
+				});
+		});
+	}
+	$('#encode-output').text(encodeURIComponent($('#url-encode').val()));
+	$('#url-encode').keyup(function() {
+		$('#encode-output').text(encodeURIComponent($(this).val()));
+	});
+	$('#screenshot-div').magnificPopup({
+	  delegate: 'a.popup-link', // child items selector, by clicking on it popup will open
+	  type: 'image'
+	  // other options
+	});
+});
+</script>
+</body>
+</html>

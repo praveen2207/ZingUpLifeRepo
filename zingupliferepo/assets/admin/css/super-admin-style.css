@@ -1,0 +1,610 @@
+.delete{
+
+    padding-right:8px;
+
+}
+
+.download3{
+
+    padding-left:8px;
+
+}
+
+
+.select-label {
+    position: relative;
+    width: auto;
+}
+
+
+.services-dropdown {
+    background: none;
+    border: 0px;
+    font-size: 18px;
+    color: #00a3d8;
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 115px;
+    padding: 0px;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    float: left;
+    margin: 0px;
+    line-height: 24px;
+}
+
+
+.select-label:after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    color: #00a3d8;
+    right: 0px;
+    top: 2px;
+    padding: 0 0 2px;
+    position: absolute;
+    font-weight: normal;
+    pointer-events: none;
+}
+
+.select-label1{
+
+    line-height:normal;
+    margin-bottom:0px;
+
+}
+
+
+.services-dropdown1{
+
+    line-height:normal;
+    width:118px;
+
+}
+
+
+
+.select-label2{
+
+    line-height:normal;
+    width:142px;
+    margin-bottom:0px;
+
+}
+
+
+.services-dropdown2{
+
+    line-height:normal;
+    width:142px;
+
+}
+
+
+.sort-span {
+    margin-right: 4px;
+}
+
+
+
+.fa.date-arrow1 {
+    font-size: 16px !important;
+    float: left;
+}
+
+
+.sorting-section2{
+
+    margin-bottom:10px;
+    overflow:hidden;
+    padding-left:4px;
+
+}
+
+
+
+.customer-actions{
+
+    float:right;
+
+}
+
+
+.c-action{
+
+    float:left;
+    font-size:16px;
+    padding-right:8px;
+    padding-left:8px;
+    line-height:normal;
+
+
+}
+
+.c-action:last-child{
+
+    padding-right:0px;
+
+}
+
+
+.cdetail-section{
+
+    margin-bottom:22px;
+
+}
+
+
+.customer-edit-input{
+
+
+    margin-left:64px;
+    float:left;
+    margin-top:5px;
+
+}
+
+
+.customer-button-group{
+
+
+    margin-left:0px;
+    clear:both;
+    padding-top:40px;
+
+}
+
+
+
+.controls1 {
+    margin-left: 64px;
+    float: left;
+}
+
+.customer-row2{
+
+    padding:30px 42px;
+
+}
+
+.c-photo{
+
+    margin-top:6px;
+
+}
+
+.edit-name3{
+
+    color:#444;
+    padding-top:12px;
+    float:left;
+
+}
+
+.control-label3{
+
+    width:105px !important;
+
+}
+
+.customer-edit-input1{
+
+    margin-left:43px;
+    margin-bottom:5px;
+
+}
+
+#edit-form{
+
+    margin-top:0px;
+
+}
+
+
+
+.change-photo1 {
+    padding-top: 7px;
+    display: block;
+    font-size: 16px;
+    clear: both;
+}
+
+.profile-tab1{
+
+    padding-top:10px;
+
+}
+
+.photo-row1 {
+
+    background: #fff;
+    padding-top: 42px;
+    padding-bottom: 190px;
+
+}
+
+
+
+
+
+.user-menu-section{
+
+    background:#AAAAAA;
+    color: #fff;
+    padding: 22px 25px 20px;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0px;
+
+
+}
+
+
+
+.user-menu-section li {
+    margin-right: 64px;
+    float: left;
+    display: block;
+}
+
+
+
+
+.user-menu-section li a {
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.user-menu-section li .nav-sel {
+    color: #DBDBDB;
+}
+
+.user-menu-section li a:hover{
+
+    color: #DBDBDB;
+
+}
+
+
+.user-head{
+
+    float:left;
+    margin-top:4px;
+
+}
+
+
+.new-user{
+
+    background:#888888;
+    padding:10px 14px;
+    border-radius:8px;
+    font-size:20px;
+    color:#fff;
+    float:right;
+    margin-right:10px;
+
+}
+
+.backend-actions{
+
+    margin:0px;
+
+}
+.backend-actions li{
+
+    list-style:none;
+    display:block;
+    float:left;
+    margin-right:12px;
+    font-size:18px;
+
+}
+
+.change-photo2{
+
+    margin-top:6px;
+    float:left;
+    clear:both;
+}
+
+.photo-actions{
+
+    float:right;
+    margin-top:14px;
+
+}
+
+
+.profile-tab2{
+
+    padding-top:25px;
+    margin-top:28px;
+
+}
+
+
+.change-photo3 {
+    margin-top: 9px;
+    float: left;
+    clear: both;
+}
+
+.user-detail-row{
+
+    padding:38px 40px 80px;
+
+}
+
+.photo-name1.large {
+
+    font-weight: normal;
+    width: auto;
+    line-height:normal;
+
+}
+
+.photo-section1{
+
+    padding:0px 0px 0px 7px;
+    clear:both;
+    overflow:hidden;
+
+
+}
+
+.edit-group3{
+
+    float:left;
+    margin-bottom:4px;
+    width:80%;
+
+}
+
+
+
+.form-horizontal .edit-group3 .control-label {
+    margin-top: 12px;
+}
+
+.edit-group4{
+
+    margin-bottom:10px;
+
+}
+
+
+.photo-section2{
+
+    padding-left:0px;
+
+}
+
+.user-detail-row1{
+
+    padding:40px 52px;
+
+}
+
+.user-role{
+
+    width:238px;
+
+}
+
+
+.new-role{
+
+    margin-top:18px;
+    margin-left:20px;
+    float:left;
+
+
+}
+
+
+
+.customer-button-group1{
+
+    padding-top:30px;
+
+}
+
+.form-horizontal .role-label{
+
+    width:90px;
+
+}
+
+.user-role-section{
+
+    margin-left:25px;
+    margin-top:12px;
+    overflow:hidden;
+
+}
+
+
+.assign{
+
+    float:left;
+    margin-top:10px;
+
+}
+
+
+.save-group{
+
+    float:right;
+    margin-right:20px;
+}
+
+
+.permission-section{
+
+    margin-top:45px;
+    overflow:hidden;
+    margin-bottom:18px;
+
+
+}
+
+
+input[type="checkbox"].checkbox1{
+
+    float:none;
+    height:24px;
+    width:24px;
+    margin:0px;
+
+}
+
+
+
+.permission-head{
+
+    color:#444;
+    font-size:24px;
+    margin-top:10px;
+    margin-bottom:14px;
+
+}
+
+.form-horizontal .edit-group3 .role-label1{
+
+    text-align:right;
+    width:140px;
+    margin-top:9px;
+
+}
+
+.page-name{
+
+    width:240px;
+    padding: 8px 13px 8px;
+
+}
+
+.page-url{
+
+    width:580px;
+    padding: 8px 13px 8px;
+
+}
+
+
+.permission-section1{
+
+    margin-top:45px;
+
+}
+
+.permission-group{
+
+    margin-left:38px;
+
+}
+
+
+.permission-group1{
+
+    margin-left:72px;
+    padding-top:24px;
+    overflow:hidden;
+
+}
+
+
+
+.tr-row1 {
+    padding: 20px 25px 45px;
+}
+
+.permission-head1{
+
+    margin-bottom:42px;
+
+}
+.filter_transaction_by_services{
+    text-overflow: ellipsis;
+}
+
+.customer-actions .c-action:last-child{
+    padding-right: 14px;
+}
+
+.word_break_down{
+    word-wrap : break-word;
+}
+
+.finance_order_detail_section{
+    padding-top:0px !important;
+}
+
+.cs_invoice_download{
+    border-left:0px;
+}
+
+.admin_customer_support_download_form{
+
+    margin:0px;
+    padding:0px;
+}
+
+.service_dropdown_extend{
+    width:auto;
+    padding-right:10px;
+}
+
+
+
+
+.customer-actions .c-action.s-action {
+    padding-right: 8px;
+}
+
+.s-download{
+    
+    padding-left:8px;
+    
+}
+
+.filter-section select.finance_servce_filter{
+ width:222px;
+}
+
+
+.filter-error{
+
+
+margin-left:9px;
+
+}
+
+
+
+.order-box .table-text {
+    
+    word-wrap: break-word;
+    
+}
+
+
+
+
+.select-label select::-ms-expand {
+    display: none;
+	visibility:hidden;
+	text-indent:0.01px;
+    text-overflow:''; 
+} 
+
+
+.sme_content{
+	width:83% !important;
+	
+	}

@@ -1,0 +1,588 @@
+@media (max-width: 1280px) {
+    .getBtn{left: 43px;}
+}
+@media (max-width: 1024px) { 
+    .height07 {height: 120px !important;}
+    .less.viewLess {top: 159px;}
+    .height08 {height: 145px !important;margin-top: 30px !important;}
+    .addressLoc{margin-top: 20px;}
+    .slide-text{bottom: 145px;}
+	.getBtn{left: 35px;bottom: 85px;}
+	.search-banner .form-inline>.form-group.serviceBtn, .search-banner .form-inline>.form-group>input{width: 250px;}
+	.serviceBtn .btn.dropdown-toggle.selectpicker.btn-inverse{width: 250px;}
+    .proinput {width: 570px !important;}
+	.card-text>h2{margin-top: 90px;}
+	.card-text>h4{margin-bottom: 65px;line-height: 1.2;}
+	.card-text.marginH2>h2{margin-top: 75px;}
+    .advisor-text{padding: 0 10px;right: 0;}
+    .advisor-text>h3{margin-top: 10px;font-size: 22px;}
+    .card-text{bottom: -1px;right: 0;}
+    .advisor-text{bottom: -1px;}
+    /*Services &Providers page css start*/
+    a.navbar-brand.logo>img{width: 160px;}
+    a.navbar-brand.logo {margin: 10px 0;}
+    .zingList>ul>li>a {padding: 25px 5px;}
+    .headTitle {font-size: 16px;}
+    .rsMin>span.messAge{font-size: 13px;}
+    .emailbox{display: none;}
+    .zingList>ul>li {padding: 0 5px;}
+    /*Services &Providers page css end*/
+    /* Services-Detail-all-packages page CSS*/
+    .ShareBox>ul>li:first-child {padding: 9px 20px 9px 10px;}
+    .ShareBox>ul>li {padding: 10px 20px;}
+    .ShareBox>ul>li:last-child {padding-right: 20px;padding-left: 20px;}
+    .viewCarousel .item>.thumbnail{height: 320px;}
+    /* END*/
+    .customerBox input{width: 208px !important;}
+    .less {top: 208px;}
+    /*.moreText {margin-top: 35px;}*/
+    .detailText{height: 200px;margin-bottom: 0;}
+    /*dashborad css resize start*/
+    .zingList.dS>ul>li {padding: 0 5px;}
+    .zingList.dS>ul>li>a{padding: 25px 0;}
+    .addressCard>ul>li>span, .addressCard>ul>li>a{font-size: 12px;}
+    .addressCard>ul>li{padding: 5px 0px 5px 8px;}
+    .addressCard{padding-bottom: 29px;}
+    /*dashborad css resize end*/
+    .btn-social{width: 80%;}
+    .changeResize.col-md-6{width: 60%;}
+    .changeResize.col-md-offset-3 {margin-left: 20%;}
+    .upcoming_card ul>li>a{padding: 0 5px;}
+    .detailCard>ul>li:first-child {padding: 7px 25px;}
+    .detailCard>ul>li{padding: 10px 25px;}
+    .people_Card>ul{padding-left: 40px;}
+    .blog-search input{width: 188px !important;}
+    .comantLogo{margin: 0 35px;}
+    .overlayText{bottom: 90px;}
+    .less.viewLess.selectRed {top: 200px;}
+    .liveBox>.btn.zing-btn{margin-right:5px;}
+    .follwersbox .trainerBox>li{padding: 10px;}
+    .commenLike{padding-right: 5px;margin-right: 5px;}
+    .expert-Cards>ul>li{padding: 1px 2px;}
+    .expert-Cards>ul>li:last-child{padding: 4.5px 2px;}
+    .vendorSelect>ul{padding-left: 15px;}
+    .vendorImg{padding-right: 5px;}
+}
+@media (max-width: 786px){
+    .less.viewLess {top: 175px;}
+    .ShareBox>ul{margin-top: 25px;}
+    .less {top: 230px;}
+    .headMenu>.row ul{float: left;margin-top: 10px;}
+    .btn.zing-btn.loginBtn{height: 30px;padding: 3px 5px;}
+    a.navbar-brand.logo>img{width: 135px;}
+    .getBtn{left: 15px;bottom: 40px;}
+    .slide-text{bottom: 85px;}
+    .serviceBtn .bootstrap-select.btn-group .dropdown-menu{width: 200px;}
+    .serviceBtn .btn.dropdown-toggle.selectpicker.btn-inverse{width: 200px;}
+    .proinput {width: 420px !important;}
+    .search-banner .form-inline>.form-group.serviceBtn, .search-banner .form-inline>.form-group>input{width: 200px;margin-right: 10px;}
+    .card-text>h2{margin-top: 50px;font-size: 24px;}
+    .card-text>h4{margin-bottom: 35px;}
+    .card-text{padding: 0 20px;right: 0;}
+    .card-text.marginH2>h2{margin-top: 45px;}
+    .card-text>h4.margin03{margin-bottom: 40px;}
+    .card-advisor, .card-knowledge{width: 260px;margin-bottom: 40px;margin-left: 40px;}
+    .emailbox{display: none;}
+    .tophFooter .row>.col-md-3, .tophFooter .row>.col-md-6{margin-bottom: 10px;}
+     /*Services &Providers page css start*/
+     .rsShow .mgRs{margin-bottom: 10px;}
+     .headTitle{font-size: 22px;;}
+     .headMenu>.row ul>li{padding: 0 4px;}
+     .reviewBox>li:last-child{padding: 0;}
+     a.navbar-brand.logo { padding: 15px 0; margin: 6px 0;}
+     a.navbar-brand.logo.width11>img {width: 160px;}
+     .zingList>ul>li>a {padding: 20px 0; font-size: 12px;}
+    .zingList>ul>li { padding: 0 5px;}
+    .headMenu .btn-group.bootstrap-select {width: 85px !important;}
+    /*Services &Providers page css end*/
+    /*start*/
+    .viewCarousel .item>.thumbnail{height: 250px;}
+    .carousel.viewCarouselBox .col-sm-6.col-md-3{text-align: center;}
+    .bookBtn{margin-bottom: 10px;}
+    .cardView>ul>li{padding: 5px 10px;}
+    /*end*/
+    .ShareBox>ul>li:first-child {padding: 9px 5px 9px 0px;}
+    .ShareBox>ul>li {padding: 10px 5px;}
+    .ShareBox>ul>li:last-child {padding-right: 0px;padding-left: 5px;}
+    .customerBox input {width: 135px !important;}
+    .date {padding: 15px;}
+    .timeBtn{font-size: 12px;}
+    .time tr>td {padding: 3px;}
+    .customerBox input {width: 135px !important;}
+    .moreText {margin-top: 25px;}
+    .paymentBox table{width: 100%;}
+    /*dashborad css */
+    .pdDr {padding-right: 15px}
+    .pdDl {padding-left: 15px;}
+    .addressCard {padding-bottom: 0;display: inline-block;}
+    .addressCard>ul>li{margin-bottom: 0px;}
+    .upcomingBox{margin-bottom: 40px;}
+    .reportsList{display: inline-block;}
+    .addressCard>ul>li>span, .addressCard>ul>li>a {font-size: 14px;}
+    .reportsBox ul>li:last-child, .reviewdasBox ul>li:last-child{margin-bottom: 30px;}
+    .comment_Box, .basic_Details{margin-top: 40px;}
+    .btn-social{width: 100%;}
+    .input_log {padding: 50px 20px;}
+    .input_sing {padding: 15px 20px;}
+    a.navbar-brand.logo {padding: 15px 260px;}
+    .reHeight{height: auto;}
+    .changeResize.col-md-6 {width: 80%;}
+    .changeResize.col-md-offset-3 {margin-left: 10%;}
+    .upcoming_card ul{float: none;margin-top: 0}
+    .upcoming_card p{margin-bottom: 0;}
+    .people_Card>ul {padding-left: 100px;}
+    .text-Comment{padding-bottom: 65px;}
+    .blog-search input {/*width: 80% !important;*/display: -webkit-inline-box !important;}
+    .corporateLogo{padding: 15px !important;}
+    .overlayText {bottom: 50px;}
+    .overlayText>h1 {font-size: 30px;}
+    .overlayText>h3 {font-size: 20px;}
+    .corporate-header{float: inherit;}
+    .corporate-header>li, .corporate-header>li:last-child{ padding: 0;padding-left: 195px; padding-top: 10px;}
+    .comantLogo {margin: 0;}
+    /*.ds_header{display: -webkit-box;}*/
+    .dsLogo {padding-left: 150px !important;padding-right: 100px !important;}   
+    .loginImg{margin-top: 10px;}
+    .dasMenu ul.dropdown-menu{right: -28px;top: 52px;}
+    .expert-Cards>ul>li:last-child {padding: 4.5px 25px;}
+    .expert-Cards>ul>li {padding: 1px 25px;}
+    .contentExperts .pdRight{padding-right: 15px;}
+    .contentExperts .pdLeft{padding-left: 15px;}
+    .contentExperts .eventsBox{border-left: 0;}
+    .borderRight{border-right: 0;}
+    .borderRight{border-bottom: 1px solid #cdcdcd;}
+    .eventsBox{margin-bottom: 0;border-bottom: 0;}
+    .notificationBox{margin-top: -65px;}
+    .zingList>ul>li {border-top: 1px solid #cdcdcd;}
+    .recommenBox .recommenCard{margin-bottom: 30px;}
+    .touchBox{border-right: 0;/*border-bottom: 1px solid #cdcdcd;*/margin-bottom: 30px;}
+    .orderImage .addressimg{text-align: left;}
+    .veRightpd{padding-right: 15px;}
+    .vedorText .imgUpload {width: inherit;}
+    .corporateCricle1, .corporateCricle2, .corporateCricle3{display: none;}
+    .vedorText input{margin-bottom: 0;}
+    .selectTheme {height: 100px;}
+    .vendorImg {width: 50%;float: left;text-align: center;}
+}
+@media (max-width: 640px) {
+    .less.viewLess {top: 155px;}
+	.meetBox img {width: 100%;}
+	.card-advisor, .card-knowledge{margin-bottom: 40px;width: 100%;margin-left: 0;}
+    .card-text>h2 {margin-top: 25px;font-size: 20px;}
+    .card-text>h4 {margin-bottom: 20px;line-height: 1;font-size: 16px;}
+    .card-text.marginH2>h2 {margin-top: 25px;}
+    .card-text>h4.margin03 {margin-bottom: 20px;}
+    .bootstrap-select.btn-group .dropdown-menu {max-width: 200px;}
+    .serviceBtn .btn.dropdown-toggle.selectpicker.btn-inverse, .serviceBtn .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn), .findBtn{
+        width: 100%;}
+    .proinput {width: 100% !important;}
+    .search-banner .form-inline>.form-group.serviceBtn, .search-banner .form-inline>.form-group>input{
+        width: 100%;margin-left: 0;}
+    .getBtn {padding: 0 15px;left: 16px;}
+    .emailbox{display: none;}
+    .tophFooter .row>.col-md-3, .tophFooter .row>.col-md-6{margin-bottom: 10px;}
+     /*Services &Providers page css start*/
+    .headMenu>.row ul>li{padding: 0 5px;}
+    a.navbar-brand.logo>img {width: 160px;}
+    .viewCarousel .item>.thumbnail {height: 405px;}
+    .viewTitle{font-size: 18px;}
+    .ourBox>ul {padding: 10px 15px 0;}
+    .cardView{padding: 0 100px;}
+    /*details pages*/
+    .ShareBox>ul>li:first-child {padding: 9px 38px 9px 10px;}
+    .ShareBox>ul>li {padding: 10px 40px;}
+    .ShareBox>ul>li:last-child {padding-right: 25px;padding-left: 40px;}
+    .zingList>ul>li>a{font-size: 14px;}
+    .zingList>ul>li>a:hover {border-top: 3px solid #fff;background: #fff;}
+    .zingList>ul>li{border-top: 1px solid #cdcdcd;}
+    .activeList{border-top: 0 !important;}
+    .paymentBox table{width: 100%;}
+   .customerBox input {width: 100% !important;}
+    .ShareBox>ul {margin-top: 0px;}
+    .date{padding: 15px 145px;}
+    .time>table {margin: 0 100px;}
+    .time>h4{margin-top: 0;}
+    a.navbar-brand.logo {padding: 15px 160px;}
+    .homelogo{padding: 15px !important;}
+    .less {top: 170px;}
+    .detailText {height: 160px;}
+    .addressLoc {margin-top: 20px;}
+    .moreText {margin-top: 30px;}
+    .imageActive{display: none !important;}
+    .imageNone2{display: none !important;}
+    .imageNone1{display: block !important;}
+    .getBtn{bottom: 115px;}
+    .slide-text{bottom: 180px;}
+    .redBtn{margin-right: 95px;}
+    .tableList{width: 565px;height: 560px;overflow: scroll;}
+    .tableList>.table{width: 800px;}
+    .bookHead>span.colorGreen, .bookHead>span.colorBlack {font-size: 16px;}
+    /*login page*/
+    .input_log{border-right: 0;border-bottom: 1px solid #cdcdcd;margin-bottom: 30px;padding: 30px 20px;}
+    .log_circle{top: 95%; left: 50%;}
+    .socialBtn_box>h4 {padding-left: 0px;}
+    .social_tab>li {padding: 10px 0;}
+    .input_sing{ border-right: 0;border-bottom: 1px solid #cdcdcd;}
+    .input_sing {padding: 0;}
+    .socialBox { padding: 0;}
+    .log_parents{margin:0;}
+    .reHeight{height: auto;}
+    .changeResize.col-md-6 {width: 100%;}
+    .changeResize.col-md-offset-3 {margin-left: 0;}
+    .re640{width: 50%;}
+    .btn-social { width: 80%;}
+    .reError {width: 100%;}
+    .upTabmenu ul> li>a {padding: 0px 5px;font-size: 16px !important;}
+    .upcomingBox{border-left: 0;}
+    .people_Card>ul {padding-left: 210px;}
+    .workplaceBox, .corporate_about{padding: 40px 15px;}
+    /*.corporate_list>li:before{margin: 7px 15px 35px 0;}*/
+    .comantLogo {margin: 0 90px;}
+    .corporateHead{position: relative;height: 135px;}
+    .corporate-header{position: absolute;top: -4px; right: 0;}
+    .overlayText{bottom: 100px;}
+    .corporate-header>li, .corporate-header>li:last-child{padding-left:215px;}
+    .dsLogo{padding-left: 135px !important;padding-right: 85px !important;}
+    .loginImg{margin-top: 15px;}
+    .less.viewLess.selectRed {top: 150px;}
+    .cardView>ul>li {padding: 5px 20px;}
+    .expert-Cards>ul>li:last-child {padding: 4.5px 15px;}
+    .expert-Cards>ul>li {padding: 1px 15px;}
+    .dsLogo {padding-left: 60px !important;padding-right: 40px !important;}
+    .dasMenu ul.dropdown-menu{    left: -14px;top: 55px;right: 0;}
+    .bolgs-Cards>ul{padding: 0 155px;}
+    .bolgs-Cards>ul>li{margin-bottom: 15px;}
+    .personalBox>h2{font-size: 20px; font-weight: 600;}
+    .personalBox>p{text-align: justify;}
+    .overlayText{left: 30px;}
+}
+@media (max-width: 480px) {
+    .tableList{width: 400px;}
+    .tableList>.table {width: 715px;}
+    .detailText {height: 200px;}
+    .btn-group>.btn:first-child{margin-bottom: 10px;}
+    .serBtn{float: right;margin-top: 10px;}
+    .wellcards{width: 100%;}
+    .logo{padding: 6px 0;}
+    .advisor-text{right: 0;}
+    .card-text>h2{    margin-top: 70px;font-size: 30px;}
+    .card-text>h4 {margin-bottom: 80px;line-height: 1;}
+    .card-text.marginH2>h2 {margin-top: 70px;}
+    .card-text.marginH2>h4 {margin-bottom: 50px;}
+    .card-text>h4.margin03 {margin-bottom: 90px;}
+    .categories h1{margin-top: 60px;font-size: 28px;}
+    .categories .exploreBox>.container>.row {margin-top: 60px;margin-bottom: 40px;}
+    .categories .meetBox>.container>.row, .categories .knowledgeBox>.container>.row, .categories .partnersBox>.container>.row {
+        margin-top: 60px;margin-bottom: 60px;}
+    .search-banner h5 {margin-bottom: 10px;}
+    .search-banner .form-inline>.form-group{margin-top: 20px;}
+    .menutBtn{display: block;}
+    .slide-text>h1 {font-size: 30px;}
+    .slide-text>h3 {font-size: 18px;}
+    .emailbox{display: none;}
+    .tophFooter .row>.col-md-3, .tophFooter .row>.col-md-6{margin-bottom: 10px;}
+     /*Services &Providers page css start*/
+    .reviewCard>.row>.col-xs-4.col-sm-3.col-md-3, .reviewCard>.row>.col-xs-8.col-sm-9.col-md-9, .searchPro .resizeCol{width: 100%;}
+    .searchPro .pd{padding: 0 15px;}
+    .searchPro input[type="text"]{width: 100%;}
+    .searchPro .pdLf{padding-left: 15px;}
+    /*.searchPro .resizeCol{margin-bottom: 10px;}*/
+    .mgMore {margin-top: 50px;}
+    .headMenu>.row ul>li {padding: 0 5px;margin-bottom: 10px;}
+    .iconFil{margin-left: 10px;}
+    .headMenu .btn-group.bootstrap-select { width: 175px !important;}
+    /*Services &Providers page css end*/
+    .cardView {padding: 0 25px;}
+    .viewCarousel .item>.thumbnail {height: 300px;}
+    /*details pages*/
+    .ShareBox>ul>li:first-child {padding: 9px 15px 9px 10px;}
+    .ShareBox>ul>li {padding: 10px 15px;}
+    .ShareBox>ul>li:last-child {padding-right: 10px;padding-left: 15px;}
+    .date {padding: 15px 50px;}
+    .time>table {margin: 0 30px;}
+    a.navbar-brand.logo {padding: 15px 90px;}
+    .less {top: 215px;}
+    .moreText {margin-top: 10px;}
+    .headMenu.ourBox {display: block;padding-bottom: 20px;}
+    .ourBox>ul{padding: 0;}
+    .getBtn {bottom: 70px;}
+    .slide-text {bottom: 130px;}
+    /*dashborad css*/
+    .statsList{display: -webkit-inline-box;}
+    .statsList>ul>li{font-size: 13px;}
+    .addressCard>ul>li>span, .addressCard>ul>li>a {font-size: 14px;}
+    .addressCard>ul>li { padding: 5px 18px;}
+    .redBtn{margin-right: 0px;}
+    .moreAdvisor>span.commAdvi{padding-right: 5px;margin-right: 5px;}
+    /*dashborad css*/
+    /*login page*/
+    .input_log{padding: 30px 0;}
+    .log_parents{margin: 0;}
+    .input_log .form-group label.col-xs-3, .input_log .form-group .col-xs-9, .input_sing .form-group label.col-xs-3, .input_sing .form-group .col-xs-9{width: 100%;}
+    .input_log .form-group .col-xs-offset-3, .input_sing .form-group .col-xs-offset-3{margin-left: 0;}
+    .social_tab>li {padding: 10px 0;}
+    .socialBtn_box>h4 {padding-left: 0;margin-top: 50px;}
+    .reSingbtn{margin-bottom: 30px;}
+    .form-horizontal .control-label {padding: 7px 15px 0;}
+    .selectbtn{padding-left: 0;}
+    /*.reSize_det{margin-right: 195px;}*/
+    .bookHead{padding-bottom: 25px;}
+    .change_password .form-horizontal .col-xs-4, .change_password .form-horizontal .col-xs-8 {width: 100%;}
+    .change_password .form-horizontal .col-xs-offset-4{margin-left: 0;}
+    .change_password .form-horizontal .col-xs-offset-8{margin-left: 0;}
+    .loginBox .form-horizontal .form-group .col-xs-3,  .loginBox .form-horizontal .form-group .col-xs-9, .loginBox .form-horizontal .form-group .col-xs-8, .widthResize {width: 100%;}
+    .log_circle { top: 96%; left: 45%;}
+    .reHeight{height: auto;}
+    .log_parents .form-horizontal .form-group .col-xs-9, .loginBox .form-horizontal .form-group .col-xs-8, .paddingLeft {
+        padding-left: 15px;}
+    .bookAll{top: 45px;}
+    .tableList {margin-top: 25px;}
+    .detailCard>ul>li {padding: 10px 18px;}
+    .detailCard>ul>li:first-child {padding: 7px 18px;}
+    .companyBox, .people_Box, .testimonials_box{padding: 15px 15px 40px;}
+    .people_Card>ul {padding-left: 145px;}
+    .comantLogo {margin: 0 10px;}
+    .reSizeWidth>.col-xs-6{width: 100%;}
+    /*.workCards{margin-bottom: 15px;}*/
+    .corporate-header{top: 46px;}
+    .corporate-header>li, .corporate-header>li:last-child{padding-left: 0;}
+    .corporateLogo{padding-bottom: 95px !important; margin-left: 115px !important;}
+    .overlayText{bottom: 35px;left: 25px;}
+    .overlayText>h3{padding-right: 75px;}
+    .dsLogo {padding-left: 50px !important;padding-right: 15px !important;}
+    .dasMenu ul.dropdown-menu {right: -9px;top: 55px;}
+     .input_list .form-group .col-xs-4{width: 50%;}
+    .input_list .form-group .col-xs-8{width: 50%;}
+    .comment_Box>p{overflow: hidden;}
+    .input_list .form-group .control-label{padding-left: 0;padding-right: 0;}
+    .less.viewLess.selectRed {top: 200px;}
+    .ourBox>ul{float: left;}
+    .expertsBox .col-xs-6{width: 100%;}
+    .expert-Cards>ul>li:last-child {padding: 4.5px 15px;width: 50%;}
+    .expert-Cards>ul>li {padding: 1px 15px;width: 50%;}
+    .dsToggle{margin-right: 0px;}
+    .dsLogo {padding-left: 5px !important;padding-right: 5px !important;}
+    a.navbar-brand.dsLogo>img{width: 130px;}
+    .borderRight>.row>.col-xs-4, .borderRight>.row>.col-xs-8{width: 100%;}
+    .bolgs-Cards>ul{padding: 0 75px;}
+    .eventsBox .statsList{display: block;}
+    .livechatBtn{width: 160px;}
+    .livechatBtn .colorPhoto{padding: 12px 5px;}
+    .livechatBtn .liveTxt{padding: 10px 5px;}
+    .liveBox>.btn.zing-btn{width: 115px;}
+    .recommenBox>.row .col-xs-6 {width: 100%;}
+    .btn-group.dealBtn>.btn{margin-bottom: 0;}
+    .reportTxt>p{padding: 0 15px;}
+    .backgroundZul .happyTxt{padding: 0;}
+    .vendorImg{width: 100%;}
+} 
+@media (max-width: 328px) {
+    .tableList {width: 255px;}
+    .exploreBox .row>.col-xs-6, .meetBox .row>.col-xs-6, .knowledgeBox .row>.col-xs-6, .knowledgeBox .row>.col-xs-6 img, .top-header .row>.col-xs-4, .top-header .row>.col-xs-8{min-width: 100%;}
+    .top-right {padding: 0 70px; float: initial;}
+    .top-header .row{text-align: center;}
+    .top-right>ul{padding: 0;}
+    .categories h1 {margin-top: 50px;font-size: 24px;}
+    .card-text>h2 {margin-top: 20px;font-size: 24px;}
+    .card-text.marginH2>h2 {margin-top: 20px;font-size: 20px;}
+    .card-text.marginH2>h4 {margin-bottom: 25px;font-size: 16px;}
+    .card-text>h4 {margin-bottom: 40px;font-size: 16px;}
+    .card-text>h4.margin03 {margin-bottom: 40px;}
+    .card-text{width: 60%;}
+    .headMenu>.row ul>li {padding: 0 3px;}
+    .headMenu .btn-group.bootstrap-select { width: 75px !important;}
+    .iconFil {margin-left: 0;}
+    /*start*/
+    .viewHead>ul{float: none;padding: 0;}
+    .cardView>ul>li {padding: 5px;}
+    .viewCarousel .item>.thumbnail {height: 195px;}
+    .headMenu.ourBox.reSize{display: block;padding-bottom: 18px;}
+    .headMenu.ourBox.reSize .viewTitle{font-size: 16px;}
+    .headMenu.ourBox.reSize>a{font-size: 12px;}
+    .headMenu.ourBox.reSize>ul{padding: 0;}
+    .headMenu.ourBox.reSize>ul>li{font-size: 10px;}
+    .viewCarouselBox .carousel-inner {padding: 0 15px;}
+    .reSizeMessage{width: 100%;}
+    .imgCenter{text-align: center;}
+    .reSizeMessage h4{font-size: 14px;}
+    /*details pages*/
+    .ShareBox>ul>li:first-child, .ShareBox>ul>li, .ShareBox>ul>li:last-child{width: 50%;}
+    .ShareBox>ul>li:last-child,  .ShareBox>ul>li.borderTop{border-top: 0;}
+    .table.tabList>tbody>tr>td>.rsText{font-size: 14px;}
+    .table.tabList span.fontSize {font-size: 12px;}
+    .bookSlot {padding: 3px 6px;}
+    .cardView {padding: 0px;}
+    .timeBtn {font-size: 10px; padding: 5px;}
+    .dateTime>h3{font-size: 20px;}
+    .date, .time {padding: 0;}
+    .paymentBox tr>td{font-size: 14px;}
+    .customerBox>h3{margin-top: 30px;}
+    .payBox{margin-bottom: 20px;}
+    .date {padding: 15px 0;}
+    .time>table {margin: 0;}
+    .bookingBox{padding: 15px;}
+    a.navbar-brand.logo {padding: 15px;}
+    .less {top: 228px;}
+    .cardView>ul>li>span{padding-right: 20px;}
+    .cardView>ul>li.mapIcons>span{border-right: 0;padding-right: 0px;}
+    .imageActive{display: none !important;}
+    .imageNone1{display: none !important;}
+    .imageNone2{display: block !important;height: 240px;}
+    .slide-text{bottom: 71px;padding-right: 75px;}
+    .slide-text>h1{font-size: 24px;}
+    .slide-text>h3 {font-size: 16px;font-weight: 600;line-height: 1.5;margin-top: 10px;}
+    .getBtn{height: 30px;bottom: 35px;}
+    .categories h1 {margin-top: 50px;font-size: 18px;}
+    .categories .exploreBox>.container>.row {margin-top: 30px;margin-bottom: 0;}
+    .customerBox h4{font-size: 14px;}
+    .categories .partnersBox>.container>.row>.col-xs-3 {text-align: center; width: 50%;margin-bottom: 30px;}
+    .search-banner h4{font-size: 14px;}
+    .reviewName{margin-right: 40px; border-right: 0;}
+    .detailText{margin-bottom: 25px;}
+    .viewTitle, .allRev {font-size: 16px;}
+    .viewHead {padding-bottom: 20px;}
+    .less.viewLess {top: 165px;}
+    .homelogo { padding: 12px 0 !important;}
+    .getStarted .modal-body .form-group>.control-label, .getStarted .modal-body .form-group>.col-xs-10{width: 100%;}
+    .getStarted .modal-body .form-group{margin-bottom: 10px;}
+    .getStarted .modal-body .form-group>.col-xs-offset-2{margin-left: 0;}
+    .btn.zing-btn.loginBtn {padding: 4px 3px;font-size: 12px;}
+    .carousel.zing_slide.slide .carousel-indicators{bottom: 0;}
+    .getStarted .modal-dialog{width: 100%;margin: 0;}
+    .getStarted.modal{padding-right: 0 !important;}
+    .getStarted .modal-header>h3 {font-size: 20px;}
+    .row.progressImg>.col-xs-3{width: 50%;}
+    .recommenedBox .col-xs-6{width: 100%;}
+    .resizeTime_das{width: 100%;text-align: center;}
+    .resize_resched{width: 50%;text-align: center;border-top: none !important;border-right: 1px solid #cdcdcd;}
+    .resize_cencel{width: 50%;text-align: center;border-top: none !important;}
+    .addressCard>ul>li>span, .addressCard>ul>li>a{border-right: 0;}
+    .cardAdvisor .resize_cards{width: 100%;text-align: center;}
+    .advisorsBox, .reportsBox, .reviewdasBox{padding: 40px 15px;}
+    .cardReports{display: block;}
+    .cardReports img{margin-bottom: 10px;}
+    .cardReports.revCards{display: inline-block;}
+    .cardReports.revCards .col-xs-3, .cardReports.revCards .col-xs-9{width: 100%;}
+    .revCards ul>li:first-child{margin-right: 5px;}
+    .cardReports.revCards ul>li:last-child {margin-bottom: 10px;}
+    .comment_Box>p {height: 295px;overflow: hidden;text-align: justify;margin-bottom: 25px;}
+    .input_list .form-group .col-xs-4{width: 35%;padding-right: 0;}
+    .input_list .form-group .col-xs-8{width: 60%;}
+    .dasInput.top_pd_none, .dasInput01.top_pd_none{width: 100% !important;}
+    .userDas_box { padding: 15px;}
+    /*login css*/
+    .socialBtn_box{padding: 0;}
+    .btn-social {width: 100%;}
+    /*.reSize_det{margin-right: 53px;}*/
+    .bookHead>span.colorBlack{margin-left: 5px; padding-left: 0; border-left: 0;}
+    .bookHead>span.colorGreen{padding-right: 18px;}
+    .log_parents .form-horizontal .form-group .col-xs-3, .log_parents .form-horizontal .form-group .col-xs-9{width: 100%;}
+    /*.loginBox{padding: 0;}*/
+    .row.change_password .form-horizontal .form-group .col-xs-offset-4{margin-left: 0;}
+    .log_circle {top: 96%;left: 40%;}
+    .logRe{top: 95%;}
+    .reHeight{height: auto; padding: 15px 0;}
+    .genderText{width: 34%;}
+    .genderText01{width: 66%;padding-left: 0;}
+    .reError{width: 100%;}
+    .errorMessage{padding: 10px;}
+    .upcomingBoxtab{padding: 0;}
+    .upcoming_card ul>li>a {padding: 0 4px;}
+    .upTabmenu ul> li>a{font-size: 18px !important;}
+    .enjoyCard{padding: 0;}
+    .detailCard>ul>li {padding: 8px 4px;}
+    .detailCard>ul>li:first-child {padding: 8px 5px;}
+    .detailCard>ul>li>.rsText, .detailCard>ul>li>.minsText, .detailCard>ul>li>.colorGreen{font-size: 14px;}
+    .tablePayment>thead>tr>th>.rsText {font-size: 16px;}
+    .people_Card>ul { padding-left: 70px;}
+    .testimonials_box  .customerBox h4{padding: 0px;}
+    .testimonials_box .icon_qout1{left: 0;}
+    .testimonials_box .icon_qout2{right: 0;}
+    .testimonials_box .left{left: 0 !important;}
+    .tagWidth100{width: 100%; text-align: center;}
+    .tagWidth10{width: 100%;}
+    .tagWidth100>p{text-align: justify !important;}
+    .tagsButton{padding: 0;}
+    .blog-search input {width: 100% !important;display: -webkit-inline-box !important; margin-bottom: 15px;}
+    .corporateLogo {margin-left: 55px !important;}
+    .corporate-header{padding: 0;margin-top: 5px;}
+    .corporate-header>li, .corporate-header>li:last-child{padding-left: 0px;}
+    .corporate-header>li>h3{font-weight: 600; font-size: 18px;}
+    .corporate-header>li:last-child>span{font-size: 12px;}
+    .overlayText{bottom: 33px;left: 20px;  }
+    .overlayText>h1{font-size: 24px;padding-right: 35px;}
+    .overlayText>h3{padding-right: 75px;font-size: 18px;margin-bottom: 15px;}
+    .overlayText>.btn.zing-btn{font-size: 13px;height: 30px;padding: 0 5px;}
+    .comantLogo{width: 100%;}
+    .touchBox{padding: 0;}
+    .height315{height: 315px;}
+    .corporate_list>li:before{margin: 7px 15px 5px 0;}
+    .corporate_about>h4{line-height: 1.2;}
+    .ds_header {display: block;}
+    .ds_header .logoImg .navbar-toggle {margin-top: 70px;}
+    /*.loginImg {margin-top: -43px;border-left: 0;}*/
+    .dsLogo {padding-left: 0px !important;padding-right: 15px !important;}
+    .input_list, .userDas_box{padding: 15px 5px;}
+    .subInput .form-group .col-xs-4{width: 50%;padding-right: 0;}
+    .subInput .form-group .col-xs-8{width: 50%;}
+    .dasMenu ul.dropdown-menu{top: 43px;}  
+    .viewCarouselBox .left.carousel-control.collaborators {left: -15px;}
+   .expert-Cards>ul>li:last-child {padding: 4.5px 5px;}
+    .expert-Cards>ul>li {padding: 1px 5px;}
+    .sapStar>li:last-child {padding: 5px 0 0 5px;}
+    .positionProfile>a{top: -20px;}
+    .livechatBtn{margin-bottom: 10px;}
+    .questionImg>a{top: -20px;}
+    .searchQues{margin-bottom: 15px;}
+    .questionsBox .statsList>ul>li:first-child{padding: 4px 5px;}
+    .statsList>ul>li:last-child{padding: 0 5px;}
+    .sortTxt{padding: 0 5px;}
+    .statsList>ul>li .selectpicker.btn-inverse{margin-bottom: 0;}
+    /*.statsList>ul>li .btn-group.bootstrap-select{width: 80px !important;}*/
+    .askquestion .modal-content, .bookCall .modal-content .statsList>h4{float: left !important;}
+    a.navbar-brand.dsLogo>img {width: 190px;}
+    .notificationBox{margin-top: -33px;}
+    .notification{margin: 0;}
+    .notification>ul>li{padding: 0 10px;}
+    .dsLogo, .loginImg{margin-top: 0;}
+    .dsProfile>img{display: none;}
+    .blogs{top: -15px;right: 2px;}
+    .dasMenu ul.dropdown-menu {top: 35px;left: -60px;}
+    .eventsBox{margin-bottom: 0; border-bottom: 0;}
+    .useQuse{width: 100%;display: block;margin-bottom: 0;padding-bottom: 0;}
+    .useQuse>input{width: 100%}
+    .useQuse>.btn.zing-btn, .useQuse>span{float: none !important;}
+    .useQuse>.btn.zing-btn{margin: 10px 5px;}
+    .bolgs-Cards>ul{padding: 0;}
+    .bolgs-Cards>ul>li{padding: 0 4px;}
+    .livechatBtn{width: 200px;}
+    .livechatBtn .colorPhoto{padding: 12px 10px;}
+    .livechatBtn .liveTxt{padding: 10px 10px;}
+    .liveBox>.btn.zing-btn{width: 120px;}
+    .biometricBox>span{font-size: 20px;}
+    .skipBox{padding: 15px 5px;}
+    .skipBox>ul{padding: 0;}
+    .skipBox>ul>li:first-child{padding-right: 5px;margin-right: 5px;}
+    .skipBox>ul>li:first-child>a{margin-right: 0;}
+    .skipBox>ul>li>a, .personalBtn>a{margin-right: 5px;}
+    .personalBox>h2{font-size: 16px;padding-top: 50px;}
+    .overallBox>p, .reportBox p{text-align: justify;}
+    .recommenBox>h3{font-size: 18px;font-weight: 600;}
+    .emailBtnShow>p{font-size: 22px;padding-top: 40px;}
+    .emailBtnShow {text-align: inherit;}
+    .physicallyBox>ul{padding: 0;}
+    .orderWidth .widthBox1{width: 35%;}
+    .orderWidth .widthBox2{width: 65%;}
+    .dateTxt>span {font-size: 14px;}
+    .editButton{float: none !important;margin-top: 10px;}
+    .checked{background-position: 0 15%;}
+    .nextBox>h4{font-size: 14px;}
+    .orderImage .addressText>p{font-size: 18px;}
+    .eventsBox .statsList>a {margin-top: 10px !important;}
+    .widthDate{width:100%;}
+    .widthDate1{width: 80%;}
+    .addArticle .statsList{padding-bottom: 40px;}
+    .allFeedback .cardImg{display: block;}
+    .allFeedback .imgText{width: 100%;}
+    .vendorBox{padding: 15px;}
+}

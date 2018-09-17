@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+/*form{
+    background-color:white;
+}*/
+#maindiv{
+    width:960px; 
+    margin:10px auto; 
+    padding:10px;
+    font-family: 'Droid Sans', sans-serif;
+}
+#formdiv {
+    background: none repeat scroll 0 0 #cff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    float: left;
+    left: 267px;
+    padding: 40px 20px;
+    position: absolute;
+    text-align: center;
+    top: 393px;
+    width: 600px;
+    z-index: 9999;
+}
+
+#formdiv > a {
+    color: #333;
+    float: right;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+/*form{
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 2px;
+}
+h2{
+    margin-left: 30px;
+}*/
+.upload{
+    background-color:#ff0000;
+    border:1px solid #ff0000;
+    color:#fff;
+    border-radius:5px;
+    padding:10px;
+    text-shadow:1px 1px 0px green;
+    box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+}
+.upload:hover{
+    cursor:pointer;
+    background:#c20b0b;
+    border:1px solid #c20b0b;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+}
+#file{
+    color:green;
+    padding:1px;
+	margin:5px;
+/*    border:1px dashed #123456;*/
+    background-color: #f9ffe5;
+}
+#upload{
+    margin-left: 45px;
+}
+
+#noerror{
+    color:green;
+    text-align: left;
+}
+#error{
+    color:red;
+    text-align: left;
+}
+#img{ 
+    border: medium none;
+    height: 17px;
+    margin-bottom: 96px;
+    margin-left: -15px;
+    width: 17px;
+}
+
+.abcd{
+    text-align: center;
+}
+
+.abcd img{
+    height:100px;
+    width:100px;
+    padding: 5px;
+    border: 1px solid rgb(232, 222, 189);
+}
+b{
+    color:#333;
+    margin-top: 0px !important;
+}
+#formget{
+    float:right; 
+
+}
+
+#filediv {
+   /* margin-top:5%; */
+}
+
+.addmore {
+    margin-top: 10%;
+}

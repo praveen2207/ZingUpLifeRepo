@@ -1,0 +1,11 @@
+.tdetail-con {
+    width: 94.5%;
+    margin: 0 auto;
+}
+.nav-bg .container{    margin: 0 5%;}
+.location-header{background-color:#fff;}
+.location-header h3{margin:10px 50px;}
+.wrapper, .row-fluid.notify,.row-fluid.notify:hover{background: #fff;}
+@media (max-width:720px){
+	.location-header h3{margin:0 25px;}
+}

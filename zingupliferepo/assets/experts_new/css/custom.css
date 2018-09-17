@@ -1,0 +1,525 @@
+.footer-icons li
+{
+	padding-right:0px !important;
+}
+.blog-excerpt-inner p.expert
+{
+	height:60px;
+	max-height:60px;
+	min-height:60px;
+	overflow:hidden;
+}
+.item .blog-excerpt-inner h2
+{
+	height:28px;
+}
+.box-comments .box-comment, .text-dark {
+    height: auto;
+    overflow: hidden;
+}
+
+/*datepicker css add*/
+.smedate .ui-datepicker-header{background: #fff;border:0;}
+.smedate .ui-datepicker-title{color: #16749f;font-size: .9em;}
+.smedate .ui-datepicker th{font-weight: normal;color: #2a2a2a;}
+/*.smedate .ui-state-highlight
+.ui-widget-content .ui-state-highlight{
+    background: #4bc850 !important;
+    border-color: #4bc850 !important;
+    text-align: center;
+    border-radius: 50%;
+}*/
+.smedate .ui-state-default, 
+.ui-widget-content .ui-state-default{background: #fff;border:0;text-align: center;}
+.smedate .ui-widget-header .ui-icon{
+    background-image: url("../img/chevron-left-right.png");
+    cursor: pointer;
+}
+.smedate .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover{
+    background: #fff;
+    box-shadow: none;
+    border:0;
+}
+.smedate .ui-icon-circle-triangle-e {background-position: -53px -24px;}
+.smedate .ui-icon {width: 28px;height: 53px;}
+.smedate .ui-icon-circle-triangle-w {background-position: -0px -21px;}
+.smedate .ui-datepicker.ui-datepicker-multi{border:0;width: 47em !important;}
+.smedate .ui-datepicker .ui-datepicker-prev span, 
+.ui-datepicker .ui-datepicker-next span{top: 115px;}
+.smedate .ui-datepicker .ui-datepicker-prev span{left: -10px;}
+.smedate .ui-datepicker .ui-datepicker-next span{left: 30px;}
+.smedate .ui-datepicker-multi .ui-datepicker-group table{width: 80%;}
+.smedate .ui-datepicker td{padding: 2px;}
+.avaBox>ul{margin: 0;padding: 0;list-style: none;}
+.avaBox>ul>li{float: left;padding: 0 10px;}
+.avaBox>ul>li>img{margin-right: 5px;}
+.avaBox{display: -webkit-box;padding: 10px 0;padding-left: 35px;height: auto;
+    overflow: hidden;}
+.timeSlot{border-top: 1px solid #cdcdcd;text-align: center;padding: 0px 15px;padding-bottom: 0;}
+.date.dashDate.smedate{padding: 15px;margin-bottom: 0 !important;    margin: 0 10px;padding-top:0px;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: #4bc850;border-radius: 50%;}
+/*.text_chat, .audio_chat, .video_chat{display: none;}*/
+.chatTab .nav-tabs{border-bottom: 0;}
+.text_chat, .audio_chat, .video_chat{display: none;}
+
+.bookCall div, .bookCall ul, .bookCall li, .tab-pane div
+{
+	clear:none;
+}
+.bookCall li img{
+	display:inline;
+}
+
+.extra-white {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    padding-right: 0px;
+}
+.decoration {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+}
+a{
+	text-decoration:none;
+}
+
+.photo-header{
+    background:url(../img/back.jpg) no-repeat;
+    min-height:100px;
+    padding:20px;
+}
+.photo-footer{
+    padding:10px;
+    min-height:220px;
+    background-color: #f1f1f1;
+    border:1px solid #ebebeb;
+}
+.photo-footer h2{
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.photo-footer p{
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:-10px;
+}
+.btn-follow{
+    border:0px;
+    background-color: #f9c125;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-follow:hover{
+    background-color: #000;
+    color:#fff;
+}
+.photo-footer h5{
+    margin-top:25px;
+    font-size:13px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom:15px;
+}
+.photo-footer span{
+    background-color: #3498db;
+    padding:5px 10px;
+    color:#fff;
+    border-radius:50%;
+}
+.photo-footer .span2{
+    background-color: #2ecc71;
+    padding:5px 7px;
+    color:#fff;
+    border-radius:50%;
+}
+.main-seven h2{
+    font-size:16px;
+    margin-top:70px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom:30px;
+}
+.btn-question{
+    background-color: #009746;
+    color:#fff;
+    border-radius:15px;
+    border:0px;
+    padding:8px 30px;
+    font-size:12px;
+    margin-top:-10px;
+}
+.small-comment{
+    min-height:300px;
+    background-color: #f1f1f1;
+}
+
+.hide {
+    display: none!important;
+}
+
+.samDate {
+    display: none;
+    padding: 0;
+}
+.show {
+    display: block!important;
+}
+.textEnter h4.colorGreen {
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.colorGreen, .colorGreen:hover, .colorGreen:focus {
+    color: #009746;
+}
+.colorGreen:hover {
+    text-decoration: none;
+}
+.samDate h4{
+text-align:center;
+font-size:18px;
+font-weight:normal;	
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+   
+    padding: 2px !important;
+  
+}
+.avaBox ul li, .timeSlot span{
+	font-size:14px;
+}
+.timeSlot
+{
+	padding-bottom:5px;
+}
+.services p.er-msg 
+{
+	    font-size: 14px;
+    margin-left: 30px;
+}
+.timeBtn {
+    box-shadow: none;
+    border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #009746;
+    font-weight: 100;
+    outline: none !important;
+}
+
+.timeAcitve {
+    background-color: #009746;
+    color: #fff;
+}
+.timeAcitve:hover{
+	color:#fff;
+}
+.nextbtn01
+{
+	display:none;
+}
+.nextbtn01show 
+{
+	display:block;
+	float: right;
+	margin-top:3px;
+}
+.btn-chat1{
+    border:0px;
+    background-color: #379956;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-chat1:hover{
+    background-color: #000;
+    color:#fff;
+}
+.btn-book1{
+    border:0px;
+    background-color: #006C9A;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-book1:hover{
+    background-color: #000;
+    color:#fff;
+}
+.footer-icons li
+{
+	padding-right:0px !important;
+}
+.blog-excerpt-inner p.expert
+{
+	height:60px;
+	max-height:60px;
+	min-height:60px;
+	overflow:hidden;
+}
+.item .blog-excerpt-inner h2
+{
+	height:28px;
+}
+.box-comments .box-comment, .text-dark {
+    height: auto;
+    overflow: hidden;
+}
+
+/*datepicker css add*/
+.smedate .ui-datepicker-header{background: #fff;border:0;}
+.smedate .ui-datepicker-title{color: #16749f;font-size: .9em;}
+.smedate .ui-datepicker th{font-weight: normal;color: #2a2a2a;}
+/*.smedate .ui-state-highlight
+.ui-widget-content .ui-state-highlight{
+    background: #4bc850 !important;
+    border-color: #4bc850 !important;
+    text-align: center;
+    border-radius: 50%;
+}*/
+.smedate .ui-state-default, 
+.ui-widget-content .ui-state-default{background: #fff;border:0;text-align: center;}
+.smedate .ui-widget-header .ui-icon{
+    background-image: url("../img/chevron-left-right.png");
+    cursor: pointer;
+}
+.smedate .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover{
+    background: #fff;
+    box-shadow: none;
+    border:0;
+}
+.smedate .ui-icon-circle-triangle-e {background-position: -53px -24px;}
+.smedate .ui-icon {width: 28px;height: 53px;}
+.smedate .ui-icon-circle-triangle-w {background-position: -0px -21px;}
+.smedate .ui-datepicker.ui-datepicker-multi{border:0;width: 47em !important;}
+.smedate .ui-datepicker .ui-datepicker-prev span, 
+.ui-datepicker .ui-datepicker-next span{top: 115px;}
+.smedate .ui-datepicker .ui-datepicker-prev span{left: -10px;}
+.smedate .ui-datepicker .ui-datepicker-next span{left: 30px;}
+.smedate .ui-datepicker-multi .ui-datepicker-group table{width: 80%;}
+.smedate .ui-datepicker td{padding: 2px;}
+.avaBox>ul{margin: 0;padding: 0;list-style: none;}
+.avaBox>ul>li{float: left;padding: 0 10px;}
+.avaBox>ul>li>img{margin-right: 5px;}
+.avaBox{display: -webkit-box;padding: 10px 0;padding-left: 35px;height: auto;
+    overflow: hidden;}
+.timeSlot{border-top: 1px solid #cdcdcd;text-align: center;padding: 0px 15px;padding-bottom: 0;}
+.date.dashDate.smedate{padding: 15px;margin-bottom: 0 !important;    margin: 0 10px;padding-top:0px;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: #4bc850;border-radius: 50%;}
+/*.text_chat, .audio_chat, .video_chat{display: none;}*/
+.chatTab .nav-tabs{border-bottom: 0;}
+.text_chat, .audio_chat, .video_chat{display: none;}
+
+.bookCall div, .bookCall ul, .bookCall li, .tab-pane div
+{
+	clear:none;
+}
+.bookCall li img{
+	display:inline;
+}
+
+.extra-white {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    padding-right: 0px;
+}
+.decoration {
+    position: relative;
+    top: -14px;
+    font-size: 15px;
+}
+a{
+	text-decoration:none;
+}
+
+.photo-header{
+    background:url(../img/back.jpg) no-repeat;
+    min-height:100px;
+    padding:20px;
+}
+.photo-footer{
+    padding:10px;
+    min-height:220px;
+    background-color: #f1f1f1;
+    border:1px solid #ebebeb;
+}
+.photo-footer h2{
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.photo-footer p{
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:-10px;
+}
+.btn-follow{
+    border:0px;
+    background-color: #f9c125;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-follow:hover{
+    background-color: #000;
+    color:#fff;
+}
+.photo-footer h5{
+    margin-top:25px;
+    font-size:13px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom:15px;
+}
+.photo-footer span{
+    background-color: #3498db;
+    padding:5px 10px;
+    color:#fff;
+    border-radius:50%;
+}
+.photo-footer .span2{
+    background-color: #2ecc71;
+    padding:5px 7px;
+    color:#fff;
+    border-radius:50%;
+}
+.main-seven h2{
+    font-size:16px;
+    margin-top:70px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom:30px;
+}
+.btn-question{
+    background-color: #009746;
+    color:#fff;
+    border-radius:15px;
+    border:0px;
+    padding:8px 30px;
+    font-size:12px;
+    margin-top:-10px;
+}
+.small-comment{
+    min-height:300px;
+    background-color: #f1f1f1;
+}
+
+.hide {
+    display: none!important;
+}
+
+.samDate {
+    display: none;
+    padding: 0;
+}
+.show {
+    display: block!important;
+}
+.textEnter h4.colorGreen {
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.colorGreen, .colorGreen:hover, .colorGreen:focus {
+    color: #009746;
+}
+.colorGreen:hover {
+    text-decoration: none;
+}
+.samDate h4{
+text-align:center;
+font-size:18px;
+font-weight:normal;	
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+   
+    padding: 2px !important;
+  
+}
+.avaBox ul li, .timeSlot span{
+	font-size:14px;
+}
+.timeSlot
+{
+	padding-bottom:5px;
+}
+.services p.er-msg 
+{
+	    font-size: 14px;
+    margin-left: 30px;
+}
+.timeBtn {
+    box-shadow: none;
+    border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #009746;
+    font-weight: 100;
+    outline: none !important;
+}
+
+.timeAcitve {
+    background-color: #009746;
+    color: #fff;
+}
+.timeAcitve:hover{
+	color:#fff;
+}
+.nextbtn01
+{
+	display:none;
+}
+.nextbtn01show 
+{
+	display:block;
+	float: right;
+	margin-top:3px;
+}
+.btn-chat1{
+    border:0px;
+    background-color: #379956;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-chat1:hover{
+    background-color: #000;
+    color:#fff;
+}
+.btn-book1{
+    border:0px;
+    background-color: #006C9A;
+    color:#fff;
+    padding:8px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-book1:hover{
+    background-color: #000;
+    color:#fff;
+}
+.screen-only{
+	display: block;
+}
+
+.mobile-only{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 480px){
+	.screen-only{
+	display: none;
+}
+.mobile-only{
+	display: block;
+}

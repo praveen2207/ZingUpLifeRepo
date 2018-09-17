@@ -1,0 +1,134 @@
+.terms_service strong{
+    color:#009746;
+}
+.add_vendor_form .control-label{
+    width: 27%;
+}
+
+.add_vendor_form .choose_service{
+    list-style: none;
+}
+.textarea_address {
+    background: #f9f9f9 none repeat scroll 0 0;
+    height: 100px;
+    width: 386px;
+}
+.error_messages{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.error_messages h3{
+    color: red;
+}
+#vendor-table3 .offering_name {
+    width: 300px !important;
+}
+
+#vendor-table33 .offering_name {
+    width: 300px !important;
+}
+.business_hours_ctr{
+    width: 1100px;
+}
+.customer-edit-input2{
+    width: 1100px;
+}
+.left-side{
+    width:325px;
+    float: left;
+    border: 1px solid #bebebe;
+    padding: 3%; 
+    border-radius: 4px;
+    margin-left: 6px;
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin-top: 0.5%;
+}
+.right-side{
+    width:325px;
+    float: right;
+    border: 1px solid #bebebe;
+    padding: 3%;  
+    border-radius: 4px;
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin-left: 6px;
+    margin-top: 0.5%;
+}
+.left-side span{
+    font-size: 14px;
+}
+.right-side span{
+    font-size: 14px;
+}
+#start-date-end-date {
+    margin-top: 10%;
+}
+#start-date-end-date1 {
+    margin-top: 10%;
+}
+#start-date-end-date11 {
+    margin-top: 2%;
+}
+.multiselect{
+    margin: 10%; 
+    width: 160px;
+    background: #f9f9f9 none repeat scroll 0 0 !important;
+}
+.left-side > h5 {
+    font-size: 16px;
+}
+.right-side > h5 {
+    font-size: 16px;
+}
+.time{
+    width:60px;
+}
+
+.customer-edit-input2 label {
+    font-size: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+.add-button{
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.btn .caret {
+    margin-left: 48px !important;
+    margin-top: 1px !important;
+}
+.add-time-block{
+    margin-top: 3%;
+}
+.add-time-block1{
+    margin-top: 3%;
+}
+#vendor-table3 .image_thumbnail img{
+    width: 150px;
+    height: 100px;
+}
+#vendor-table3 .image_thumbnail_head{
+    width: 150px !important;
+}
+.image_thumbnail img{
+    width: 150px;
+    height: 100px;
+}
+.admin_offering_filter{
+    border: none;
+}
+.check-text{
+    width:151px;
+    float: left;
+    margin-right: 10px;
+}
+.check-text select{
+    width:150px;
+}
+.left-side-ctr{
+    padding: 1% 3.2%;
+}
+.check-text label{
+    margin-top: 0px !important;
+}

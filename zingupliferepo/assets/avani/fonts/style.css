@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family: PlaylistScript;
+    src: url("../../../assets/avani/fonts/playlist-script/Playlist Script.otf") format("opentype");
+}
+
+@font-face {
+    font-family: signika;
+    src: url("../../../assets/avani/fonts/signika/Signika-Bold.otf") format("opentype");
+}
+
+
+
+/*.head-title{
+	font-family: "PlaylistScript",cursive !important;
+	font-size: 93px !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight:normal !important;
+	line-height: 20px !important;
+}
+.display-5{
+	font-family: "signika",sans-serif !important;
+	font-size: 1.6rem !important;
+}
+
+.mbr-section-subtitle {
+    line-height: 6.3 !important;
+}*/

@@ -1,0 +1,3912 @@
+@media (max-width: 1024px) {
+
+
+    .carousel .item > img {
+        width: 100%;
+    }
+    .con-p {
+        padding: 48px 0px 48px 0px;
+    }
+    .hero-unit {
+        padding: 60px 60px 30px;
+    }
+    .con-row1 h3 {
+        margin: 0px;
+    }
+    .vendor-head {
+        margin-top: 4px;
+    }
+    .span3 {
+        margin-right: 60px;
+    }
+    .span-last {
+        margin-right: 0px;
+    }
+    .row-fluid > .span8 {
+        width: auto;
+        float: none;
+    }
+    .about-loc {
+        padding: 50px 0px 61px 30px;
+        width: 54%;
+        float: left;
+    }
+    iframe {
+        float: right;
+    }
+    .vendor-loc-row .span4 {
+        background: none;
+        width: auto;
+    }
+    .shatayu-logo {
+        width: 6%;
+    }
+    .row-fluid > .span9 {
+        width: auto;
+        float: none;
+    }
+    .loc-slider1 .item > img {
+        width: auto;
+    }
+    .control2.right {
+    right: 434px;
+}
+    .carousel-caption {
+        width: 32.4%;
+    }
+    .indicators2 {
+        left: 53px;
+    }
+    .about-book {
+        width: auto;
+    }
+    .book-right {
+        margin-right: 0px;
+    }
+    .row-fluid > .span3 {
+        width: auto;
+        float: none;
+    }
+    .about-book {
+        padding: 44px 31px 39px 31px;
+        width: auto;
+    }
+    .abt-p {
+        width: auto;
+    }
+    .book {
+        width: auto;
+    }
+    .view-con {
+        width: 39.4%;
+        padding: 11px 16px;
+        float: right;
+    }
+    #map_canvas {
+        height: 201px;
+        width: 400px;
+    }
+    .span7 {
+        width: 675px;
+    }
+    .reg-span {
+        float: none;
+        margin-left: 0px;
+    }
+    .small {
+        font-size: 28px;
+    }
+    .medium {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .span12 {
+        padding: 22px 0px;
+    }
+    /* added aug 19 */
+    
+    .forg-row {
+        width: auto;
+    }
+    .timer {
+        padding: 22px 45px;
+    }
+    .edit {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .edit-group1 {
+        margin-left: 74px;
+    }
+    .edit-name {
+        margin-top: 17px;
+    }
+    .otp-span {
+        width: auto;
+    }
+    .photo {
+        width: 6%;
+    }
+    .red-row {
+        width: 50% !important;
+    }
+	
+    /* added aug 20 */
+    
+    .edit-group2 {
+        margin-left: 77px;
+    }
+    .edit-name {
+        margin-top: 14px;
+    }
+    .edit-icon1 {
+        margin-top: 14px;
+    }
+    .edit-input {
+        margin-top: 1px;
+    }
+    .edit-input1 {
+        margin-top: 7px;
+    }
+    .pr-success {
+        width: auto;
+    }
+	
+	
+	
+	.vendor-head {
+    margin-top: 22px;
+}
+
+
+.shatayu-logo {
+    width: 10%;
+}
+
+.vendor-loc-row {
+   
+    padding: 0px 0px 30px!important;
+	
+}
+
+.vendor-loc-row .span4 {
+    
+    width: auto !important;
+	
+}
+
+
+#map_canvas {
+    height: 215px;
+    width: 402px;
+}
+
+
+.view-con {
+    width: 42.5%;
+    padding: 11px 0px;
+    float: left;
+}
+
+
+.vendor-trt-row .span3 {
+   
+    margin-right: 58px;
+	
+}
+
+.carousel .item > img.slide-image {
+    width: auto;
+}
+
+.carousel-caption {
+    width: 37.4%;
+	padding: 56px 30px 171px;
+}
+
+.book {
+    width: 28%;
+    margin: 22px auto 0px;
+}
+	
+	
+/* added sep 25 */
+
+
+.carousel-caption{
+
+height:233px;
+
+}
+
+.vendor-trt-row .span-last {
+    margin-right: 0px;
+}.book-links {
+    float: left;
+    margin-top: 20px;
+    margin-left: 0px;
+	margin-bottom:0px;
+}
+
+
+.book-details1 .order-text {
+    
+    width: 66%;
+    float:right;
+    text-align: right;
+
+}
+
+.book-details1 .book-para{
+    
+    overflow:hidden;
+    
+}
+	
+	
+}
+
+
+@media (max-width: 979px) {
+
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .row-class-left {
+        float: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .span4 {
+        float: none;
+        margin: 0 auto 27px;
+        width: 298px;
+    }
+    .span4 h2 {
+        padding: 20px 0px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+    a {
+        font-size: 16px;
+    }
+    .con-row1 h3 {
+        margin: 0px;
+    }
+    .hero-unit {
+        padding: 40px 30px 30px;
+    }
+    .con-p {
+        padding: 30px 0px 30px 0px;
+    }
+    .con-span {
+        margin-right: 30px;
+    }
+    .footer-list {
+        margin: 0 auto 0px;
+        width: 644px;
+    }
+    .footer-list li {
+        font-size: 16px;
+    }
+    .container {
+        position: relative;
+    }
+    .logo {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 40%;
+    }
+    .btn-navbar {
+        float: left;
+        background: none;
+        box-shadow: none;
+        border: 0px;
+        position: absolute;
+        left: 10px;
+        top: 31px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .btn-navbar .icon-bar {
+        width: 24px;
+        height: 4px;
+        background-color: #343434;
+        box-shadow: none;
+        border-radius: 3px;
+    }
+    .btn-navbar .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    .btn-navbar:hover,
+    .btn-navbar:active,
+    .btn-navbar.active,
+    .btn-navbar.disabled,
+    .btn-navbar[disabled] {
+        background: none;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    .category-row {
+        padding-bottom: 15px;
+    }
+    .con-location {
+        margin-bottom: 36px;
+    }
+    .category-row {
+        padding-top: 36px;
+    }
+    .vendor-category {
+        text-align: center;
+    }
+    .shatayu-logo {
+        margin-right: 22px;
+    }
+    .location-header {
+        padding: 18px 20px 17px;
+    }
+    .vendor-trt-row {
+        background: none;
+        padding: 0px;
+    }
+    .span3 {
+        box-shadow: none;
+        width: auto;
+        float: none;
+        margin: 0px;
+        padding: 0px 0px;
+    }
+    .trt-link {
+        padding: 22px 60px;
+        text-align: left;
+    }
+    .span3:nth-child(2),
+    .span3:nth-child(4) {
+        background: #eee;
+    }
+    .span3 h5 {
+        font-weight: normal;
+        line-height: normal;
+    }
+    .span3:nth-child(2) h5,
+    .span3:nth-child(4) h5 {
+        font-weight: 700;
+    }
+    .fa.vendor-icon {
+        color: #444;
+        text-shadow: none;
+        font-size: 20px;
+        float: left;
+        margin-right: 5px;
+        display: block;
+    }
+    .about-loc {
+        padding: 50px 0px 61px 41px;
+        width: auto;
+        float: none;
+    }
+    iframe {
+        float: none;
+        width: 100%;
+    }
+    .view-con {
+        float: none;
+        width: auto;
+    }
+    .vendor-loc-row .span4 {
+        margin: 0px;
+    }
+    .hour,
+    .amt {
+        width: auto;
+    }
+    .category1 {
+        padding: 27px 20px 24px;
+    }
+    .fa.fa-clock-o {
+        font-size: 32px;
+    }
+    .fa.fa-inr {
+        font-size: 24px;
+    }
+    .hour-t {
+        margin-top: 7px;
+    }
+    .loc-slider1 .item > img {
+        width: 100%;
+        height: 100%;
+    }
+    .loc-slider1 .control1,
+    .loc-slider1 .control2 {
+        top: 27%;
+    }
+    .loc-slider1 .control2.right {
+        right: 22px;
+    }
+    .carousel-caption {
+        width: auto;
+    }
+    .indicators2 {
+        bottom: 258px;
+        left: 0px;
+        width: 100%;
+    }
+    h5.large {
+        font-size: 24px;
+    }
+    .carousel-caption {
+        padding: 50px 30px;
+    }
+    .about-loc {
+        padding: 50px 41px 61px;
+        width: auto;
+        float: none;
+    }
+    #map_canvas {
+        height: 201px;
+        width: 100%;
+    }
+    #multiple_vendors .span3 {
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+        width: 40%;
+        margin: 0 auto 10px !important;
+        float: none;
+        display: block;
+    }
+    #multiple_vendors {
+        background: #666;
+    }
+    .form-horizontal .control-group {
+        margin-left: 30px;
+        margin-bottom: 24px;
+    }
+    .sign-section {
+        margin-left: 28px;
+        padding: 14px 3px;
+        margin-top: 30px;
+    }
+    .span7 {
+        width: 654px;
+        margin-left: 0px;
+    }
+    .row-fluid > .span12 {
+        width: 99.7%;
+    }
+    .reg-head {
+        margin-left: 30px;
+    }
+    .menu {
+        display: none;
+    }
+    /* added aug 19 */
+    
+    .forg-row {
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+    .redirect-head {
+        text-align: center;
+    }
+    .for-para {
+        text-align: center;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .timer {
+        padding: 22px 27px;
+    }
+    .timer-p {
+        margin-top: 2px;
+    }
+    .form-book {
+        margin-top: 25px;
+    }
+    .edit-group1 {
+        margin-left: 76px;
+    }
+    .forgot-pass1 {
+        display: none;
+    }
+    .sign-row {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+    }
+    .form-horizontal .reset-controls {
+        margin-left: 80px;
+    }
+    .message-head {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .message-row {
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-bottom: 130px;
+    }
+    .otp-check {
+        padding-top: 30px;
+        margin: 16px auto 0px !important;
+        float: none !important;
+        display: block;
+        width: 95%;
+    }
+    .otp-check .para-small {
+        text-align: center;
+    }
+    .check-para {
+        padding-bottom: 20px;
+    }
+    .photo {
+        width: 7%;
+    }
+    .photo-name.large {
+        margin-top: 4px;
+    }
+    .edit-controls1 {
+        margin-top: 1px;
+    }
+    .edit-row {
+        padding-left: 0px;
+    }
+    .photo-section {
+        width: 91%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .profile-tab {
+        float: none;
+        margin: 22px auto 0px !important;
+        width: 95%;
+        display: block;
+    }
+    .redirect-row {
+        padding: 76px 0px 176px;
+    }
+    .red-row {
+        width: 46% !important;
+    }
+    .back {
+        width: 16%;
+    }
+	
+	
+    /* added aug 20 */
+    
+    .edit-icon1 {
+        margin-top: 17px;
+    }
+    .edit-icon1 {
+        margin-top: 17px;
+    }
+    .edit-controls1 {
+        width: 55%;
+    }
+    .edit-group2 {
+        margin-left: 17px;
+    }
+    .edit-name {
+        margin-top: 14px;
+    }
+    .change-section {
+        margin-left: 30px;
+    }
+    .upload-group {
+        margin-left: 30px;
+    }
+    .booking-calendar {
+        margin-left: 47px;
+    }
+    .book-group {
+        margin-left: 47px;
+    }
+    .select-time {
+        margin-left: 78px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .time-group {
+        margin-left: 78px;
+    }
+    .pr-success {
+        padding-left: 0px;
+    }
+    .photo-section1 {
+        padding-top: 22px;
+    }
+    .c-span {
+        font-size: 25px;
+    }
+    .con-head {
+        text-align: left;
+    }
+    .c-span {
+        font-size: 22px;
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    .book-details {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .book-details:first-child {
+        padding-top: 0px;
+    }
+    .c-span {
+        font-size: 20px;
+    }
+    .pr-cong {
+        float: none;
+        margin: 0px auto 0px !important;
+        width: 95%;
+        display: block;
+    }
+    .pr-message {
+        padding-bottom: 13px;
+    }
+	
+	
+/* added aug 24 */
+
+.trans-main {
+    width: 100%;
+	
+}
+
+.trans-list li{
+
+margin:0px 0px;
+padding:16px 30px;
+
+}
+
+.trans-list li:last-child{
+
+border:0px;
+
+}
+
+
+.notify-list li{
+margin:0px 0px;
+padding:16px 30px;
+
+}
+
+
+.notify-list li:last-child{
+
+border:0px;
+padding-bottom:0px;
+}
+
+.notify-detail {
+    
+    width: 77%;
+}
+
+
+
+/* added aug 25 */
+
+
+.trans-header .vendor-head {
+    margin-top: 2px;
+}
+
+
+.book-details1{
+padding-top:30px;
+padding-bottom:30px;
+
+}
+
+.book-para {
+    
+    width: 94%;
+    float: left;
+}
+
+
+.book-text , .order-text{
+    
+    float: right;
+}
+
+
+.book-links {
+    float: left;
+    margin-top: 20px;
+    margin-left: 0px;
+	margin-bottom:0px;
+}
+
+.book-para {
+    width: 98%;
+    float: left;
+}
+
+.trans-span7{
+
+width:100%;
+margin-left:0px;
+
+}
+
+
+.trans-span71{
+
+margin-left:0px;
+margin-top:8px;
+width:100%;
+
+}
+
+/* added aug 26 */
+
+
+.select-time1 {
+   
+    padding-top: 30px;
+
+}
+
+.re-message {
+    margin-top: 5px;
+}
+
+.nav-menu{
+
+display:none;
+margin:0px;
+position:relative;
+left:0px;
+padding:0px;
+width:100%;
+
+}
+.collapse .nav-menu{
+
+display:block;
+
+}
+
+.nav-collapse {
+    clear: left;
+}
+
+.navbar-fixed-top{
+
+margin:0px;
+
+}
+
+.navbar-fixed-top .navbar-inner{
+
+padding:0px;
+
+}
+.nav-collapse.collapse {
+    height: 399px;
+}
+
+ .navbar .nav > li > a:hover,
+  .navbar .dropdown-menu a:hover {
+    background: none;
+	color:#444;
+  }
+
+.nav-menu  li{
+
+  
+  background:#fff;
+  margin:0px;
+  border-bottom:1px solid #bebebe;
+
+}
+
+.nav-menu li a{
+
+color:#444;
+font-size:18px;
+padding:14px 42px;
+display:block;
+
+}
+.navbar .nav > li > a{
+
+line-height:normal;
+text-shadow:none;
+color:#444;
+padding:14px 42px;
+font-weight:normal;
+
+}
+.fa.menu-arrow{
+
+text-shadow:none;
+color:#444;
+font-weight:bold;
+font-size:20px;
+margin-right:10px;
+
+}
+
+.nav-menu li:last-child{
+
+border:0px;
+
+}
+
+.nav-menu .li-bg{
+
+ background:#eee;
+
+}
+
+
+.notify-icon{
+
+background:#333;
+border-radius:25px;
+font-size:15px;
+font-weight:bold;
+color:#fff;
+padding: 4px 9px;
+float:right;
+
+}
+
+
+/* latest update */
+
+
+.btn-navbar{
+
+top:42px;
+
+}
+
+footer p {
+    font-size: 16px;
+}
+
+.con-row {
+    
+    padding: 48px 0px 20px;
+	
+}
+
+.header {
+   
+    border-bottom: 1px solid #bebebe;
+	
+}
+
+.shatayu-logo {
+    width: 12%;
+}
+
+#map_canvas {
+    margin-left: 0px;
+}
+
+.view-con{
+
+padding: 20px 0px;
+
+}
+
+.view{
+
+    width: 50%;
+
+}
+
+.vendor-head {
+    margin-top: 18px;
+}
+
+.location-header {
+    padding: 10px 20px 10px;
+}
+
+.vendor-category {
+   
+    font-size: 24px;
+	
+}
+	
+	.vendor-trt-row .span3{
+	
+	border:0px;
+	
+	}
+	
+	.vendor-trt-row .span3 {
+    margin-right: 0px;
+}
+
+
+.book-category {
+    
+    line-height: normal;
+}
+
+.book-right{
+
+background:transparent !important;
+
+}
+
+
+.redirect-header {
+    padding: 18px 20px 17px;
+}
+
+.fa.fa-inr {
+    
+    margin-top: 4px;
+	
+}
+
+.book-details{
+
+overflow:hidden;
+
+}
+
+
+.book-details {
+    padding-left: 22px;
+}
+
+
+.carousel .item > img.slide-image {
+    width: 100%;
+}
+
+.nav-menu li:last-child{
+
+border:0px;
+
+}
+
+.static-header .vendor-head{
+  
+	text-align:center;
+	float:none;
+}
+
+
+.trt-link{
+
+height:auto;
+
+}
+	
+.photo-name{
+
+line-height:normal;
+
+}
+
+.name-val{
+
+width:90%;
+
+}
+
+.book-details1 .trans-span71:nth-child(2) .book-para:first-child .order-text {
+    
+    width: 77%;
+    text-align: right;
+	word-wrap:break-word;
+}
+
+.book-text, .order-text {
+    
+    width: auto;
+}
+
+.carousel-caption{
+
+height:auto;
+
+}
+
+
+.book-details1 .order-text {
+    width: auto;
+    float: right;
+    text-align: right;
+}
+
+
+.carousel-caption {
+    width: 93%;
+}
+	
+}
+
+
+@media (max-width:800px){
+    
+    .time-icons {
+    float: none;
+    text-align: CENTER;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+    
+}
+
+
+@media (max-width: 768px) {
+
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .row .span4 {
+        float: none;
+        margin: 0 auto 27px;
+        width: 298px;
+    }
+    .footer-list li:nth-child(2),
+    .footer-list li:nth-child(4),
+    .footer-list li:nth-child(6),
+    .footer-list li:nth-child(8),
+    .footer-list li:nth-child(10) {
+        display: none;
+    }
+    .footer-list {
+        margin: 0 auto 0px;
+        width: 566px;
+    }
+    .nav {
+        padding: 14px 0px;
+    }
+    .menu {
+        display: none;
+    }
+    .nav li a {
+        color: #444;
+    }
+    .fa.nav-icon {
+        color: #444;
+        text-shadow: none;
+        font-size: 22px;
+    }
+    .vendor-image {
+        margin: 67px auto;
+        padding: 76px 144px 70px 144px;
+        width: 40%;
+    }
+    .vendor-sel {
+        font-size: 28px;
+    }
+    .fa.fa-caret-left {
+        display: none;
+    }
+    .span12 {
+        overflow: hidden;
+    }
+	
+	
+/* added aug 26 */
+
+
+.nav-menu{
+
+padding:0px;
+
+}
+
+
+
+/* latest update */
+
+
+.row .span4 {
+    
+    width: 298px !important;
+	
+}
+
+
+.loc-slider1 .carousel-indicators li:last-child{
+
+margin-right:0px;
+
+}
+
+
+
+
+
+
+	
+}
+
+
+@media (max-width: 670px) {
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    body {
+        padding: 0px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .footer-list {
+        margin: 0 auto 0px;
+        width: 566px;
+    }
+    .span4 h2 {
+        padding: 16px 0px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .con-span {
+        line-height: 40px;
+        margin-right: 20px;
+        margin-bottom: 90px;
+        font-size: 40px;
+    }
+    .footer-list {
+        display: none;
+    }
+    p {
+        line-height: 23px;
+    }
+    .fa.fa-angle-left,
+    .fa.fa-angle-right {
+        font-size: 82px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .category {
+        padding: 22px 0px;
+    }
+    .vendor-image {
+        margin: 48px auto;
+    }
+    .vendor-sel {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+    .fa.vendor-icon {
+        font-size: 20px;
+    }
+    .span3 h5 {
+        font-weight: normal;
+        line-height: 23px;
+    }
+    .footer-para {
+        padding-top: 0px;
+    }
+    h4.large {
+        font-size: 24px;
+        width: auto;
+    }
+    .abt-p {
+        width: 94%;
+        margin-top: 16px;
+    }
+    .about-loc {
+        padding: 30px 0px 30px 41px;
+        width: auto;
+        float: none;
+    }
+    .view {
+        width: 91%;
+    }
+    .button {
+        font-size: 24px;
+    }
+    .shatayu-logo {
+        width: 7%;
+    }
+    .fa.fa-inr {
+        font-size: 22px;
+    }
+    .fa.fa-clock-o {
+        font-size: 30px;
+    }
+    .category1 {
+        padding: 22px 20px 22px;
+    }
+    .carousel-caption .slide-p {
+        margin-top: 16px;
+    }
+    .carousel-caption {
+        padding: 30px 41px;
+    }
+    .about-book {
+        padding: 30px 41px;
+        width: auto;
+    }
+    .abt-p {
+        width: auto;
+        margin-top: 16px;
+    }
+    .about-loc {
+        padding: 30px 41px;
+        width: auto;
+    }
+    .book {
+        margin-top: 26px;
+    }
+    .indicators2 {
+        top: 455px;
+        left: 0px;
+        width: 100%;
+        bottom: auto;
+    }
+    h5.large {
+        font-size: 22px;
+    }
+    .book {
+        font-size: 24px;
+    }
+    h5.large {
+        font-size: 20px;
+    }
+    .small {
+        font-size: 24px;
+    }
+    .span12 {
+        overflow: hidden;
+        padding: 18px 0px;
+    }
+    .medium {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .reg-head {
+        margin-left: 20px;
+    }
+    .sign-section {
+        margin-left: 0px;
+    }
+    .sign-section {
+        padding: 10px 3px;
+        margin-top: 20px;
+        float: left;
+        width: 99%;
+    }
+    .span7 {
+        width: 605px;
+        margin: 0 auto;
+        float: none;
+    }
+    .fa.fa-check {
+        margin-right: 16px;
+    }
+    input,
+    select {
+        font-size: 17px;
+    }
+    .form-horizontal .control-group {
+        margin-left: 2px;
+        margin-bottom: 16px;
+    }
+    .form-horizontal {
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+    .form-horizontal {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        clear: both;
+        padding-top: 16px;
+    }
+    /* added aug 19 */
+    
+    .input-xxlarge {
+        width: 383px;
+    }
+    select {
+        width: 410px;
+    }
+    .for-para {
+        width: 94.5%;
+        margin: 0 auto;
+        padding-bottom: 8px;
+    }
+    .form-horizontal .sign-group {
+        width: 94.5%;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+    .forg-row {
+        padding-top: 30px;
+    }
+    .timer {
+        padding: 18px 17px;
+    }
+    .timer-icon {
+        margin-right: 8px;
+    }
+    .edit {
+        font-size: 18px;
+        line-height: normal;
+        margin-right: 20px;
+    }
+    .edit-group1 {
+        margin-left: 37px;
+        margin-bottom: 5px;
+    }
+    .form-book {
+        padding-top: 8px;
+    }
+    .edit-name {
+        margin-top: 14px;
+    }
+    .edit-button {
+        margin-top: 30px;
+    }
+    .form-horizontal .otp-controls {
+        margin: 0px auto;
+        float: none;
+    }
+    .otp-controls .para-small {
+        text-align: center;
+    }
+    .sign-row {
+        padding-left: 0px;
+    }
+    .form-horizontal .reset-controls {
+        margin-left: 3px;
+    }
+    .check-para {
+        padding-bottom: 30px;
+    }
+    .message-row {
+        padding-bottom: 40px;
+    }
+    .redirect-row {
+        padding: 76px 0px 118px;
+    }
+    .page-error {
+        width: 94%;
+        margin: 0 auto;
+    }
+    .error-row {
+        padding: 90px 0px;
+    }
+	
+	
+    /* added aug 20 */
+    
+    .photo {
+        margin-right: 18px;
+        width: 9%;
+    }
+    .photo-name.large {
+        margin-top: 8px;
+    }
+    .profile-tab {
+        margin-top: 18px;
+    }
+    #profile {
+        padding-top: 9px;
+    }
+    .edit-group2 {
+        width: 95%;
+        margin: 0 auto 10px;
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+    .edit-input {
+        margin-top: 5px;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 354px;
+    }
+    .edit-input .input-xxlarge {
+        width: 354px;
+    }
+    .edit-input1 select {
+        width: 382px;
+    }
+    .upload-group {
+        width: 37.5%;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    }
+    .change-section {
+        margin: 0 auto 20px;
+        width: 90.5%;
+    }
+    .booking-calendar {
+        margin-left: 21px;
+        padding-top: 18px;
+    }
+    .ic__week-head td {
+        font-size: 14px;
+    }
+    .ic__days td {
+        font-size: 14px;
+    }
+    .book-group {
+        margin-left: 21px;
+    }
+    .select-time {
+        margin-left: 55px;
+        padding-top: 19px;
+        margin-bottom: 25px;
+    }
+    .sel-time {
+        font-size: 16px;
+    }
+    .book-group {
+        margin-left: 21px;
+    }
+    .time-group {
+        margin-left: 55px;
+    }
+    .book-details {
+        padding-left: 20px;
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+	
+	
+	
+/* added aug 24 */
+
+.trans-list li{
+
+margin:0px 0px;
+padding:16px 25px;
+}
+
+
+.trans-list li:last-child{
+
+border:0px;
+padding-bottom:0px;
+}
+
+
+
+.notify-list li{
+margin:0px 0px;
+padding:16px 25px;
+
+}
+
+
+.notify-detail {
+
+font-size:16px;
+
+}
+
+
+.fa-info {
+    
+    font-size: 22px !important;
+    margin-top:5px;
+    padding: 2px 9px;
+    margin-right: 30px;
+    
+}
+
+.fa.notify-check {
+   
+    font-size: 20px;
+   
+    padding: 8px 8px;
+    margin: 0px;
+	
+}
+
+
+/* added aug 25 */
+
+
+.book-para {
+    width: 100%;
+}
+
+.trans-span7{
+
+float: none;
+width:auto;
+
+}
+
+
+.book-details1{
+
+padding-right:26px;
+
+}
+
+.shatayu-logo1 {
+
+    width: 7%;
+	
+}
+
+
+.tdetail-con1 {
+    width: auto;
+    margin: 0 auto;
+}
+
+.re-edit{
+margin-right:20px;
+
+}
+
+
+/* added aug 25 */
+
+
+.select-time1 {
+
+    padding-top: 19px;
+    margin-bottom: 10px;
+	
+}
+
+
+.res-succ {
+    
+    width: 65%;
+	margin-top:0px;
+    
+}
+
+.re-group1 {
+    
+    
+    margin-top: 30px;
+    padding-top: 14px;
+	
+}
+
+
+.re-message{
+
+padding-bottom:13px;
+margin-top:0px;
+
+}
+
+.customer-details {
+   
+    margin-top: 30px;
+	
+}
+
+.cust-name{
+
+font-size:20px;
+
+}
+
+
+.fa.menu-arrow {
+    text-shadow: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* added sep 11 */
+
+
+.datepick-month span {
+    font-size: 14px;
+}
+
+.datepick-month-header select, .datepick-month-header input {
+    margin-right: 12px;
+}
+
+.datepick-month a {
+    font-size: 14px;
+}
+
+
+
+
+/* latest update */
+
+
+.carousel-indicators {
+    bottom: 12px;
+}
+
+.vendor-head {
+    font-size:25px;
+}
+
+.shatayu-logo {
+    width: 12%;
+}
+
+.indicators1 {
+    bottom: 20px;
+}
+
+.view {
+    width: 56%;
+}
+
+.vendor-category {
+    font-size: 22px;
+}
+.book-category{
+
+font-size:25px;
+}
+
+.fa.fa-inr {
+    
+    margin-top: 6px;
+}
+
+
+.carousel .item > img.slide-image {
+    width: 100%;
+}
+
+.about-book {
+    padding: 30px 41px 0px;
+    width: auto;
+}
+.indicators2 {
+    top: 442px;
+    left: 0px;
+    width: 100%;
+    bottom: auto;
+}
+
+.loc-slider1 .carousel-indicators li:last-child {
+    margin-right: 0px;
+}
+
+.loc-slider1 .carousel-indicators li,.loc-slider1 .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+}
+
+.book {
+
+    width: 36%;
+  
+}
+
+.hour-t{
+
+font-size:18px;
+
+}
+
+.book-success-header {
+    padding: 18px 20px 17px;
+}
+
+.medium{
+    font-size: 18px;
+}
+
+
+.sel-time {
+    height: auto;
+}
+
+.edit-input select, .control-group select {
+    height: auto;
+}
+	
+	
+	
+.time-icons {
+    float: none;
+    text-align: CENTER;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}	
+	
+
+.carousel-caption {
+    
+    width: auto;
+    
+}
+	
+}
+
+
+
+
+@media (max-width: 640px) 
+
+{
+
+
+
+}
+
+
+@media (max-width: 605px) {
+
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .indicators2 {
+        top: 430px;
+        left: 0px;
+        width: 100%;
+        bottom: auto;
+    }
+    .span7 {
+        width: 562px;
+    }
+    .form-horizontal .controls {
+        margin-left: 64px;
+    }
+    .form-horizontal .control-label1 {
+        width: 118px;
+    }
+    .form-horizontal .reset-controls {
+        margin-left: 37px;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 317px;
+    }
+    .edit-input1 select {
+        width: 345px;
+    }
+    #uploadFile {
+        width: 354px;
+    }
+    .change-photo-details {
+        margin-top: 4px;
+    }
+    .upload-group {
+        width: 25.5%;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    }
+    /*.cancel {        display: block !important;        float: none;        margin: 0px auto;        padding-top: 20px;    }*/
+    
+    .change-section {
+        margin-top: 10px;
+    }
+	
+	
+	
+/* latest update */
+
+.view {
+    width: 60%;
+}
+
+
+.trans-span7 {
+    width: 512px;
+}
+
+.book-details1 .trans-span7{
+    
+    width:100%;
+    
+}
+	
+.book-details1 .trans-span71:nth-child(2) .book-para:first-child .order-text {
+    
+    width: 75%;
+
+}	
+	
+	
+}
+
+
+@media (max-width: 570px) {
+
+
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .span4 h2 {
+        padding: 10px 0px;
+    }
+    .row .span4 {
+        width: 248px;
+    }
+    .con-span {
+        line-height: 34px;
+        margin-bottom: 94px;
+        font-size: 34px;
+    }
+    .vendor-image {
+        padding: 70px 110px 65px 110px;
+    }
+    .shatayu-logo {
+        width: 10%;
+    }
+    .indicators2 {
+        top: 372px;
+        left: 0px;
+        width: 100%;
+    }
+    .span7 {
+        width: 498px;
+    }
+    .form-horizontal .controls {
+        margin-left: 13px;
+    }
+    /* added aug 19 */
+    
+    .input-xxlarge {
+        width: 369px;
+    }
+    select {
+        width: 397px;
+    }
+    .form-horizontal .sign-group {
+        width: 93%;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+    .form-horizontal .control-label1 {
+        width: 118px;
+    }
+	
+	
+    /* added aug 20 */
+    
+    .edit-input .input-xxlarge {
+        width: 343px;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 76%;
+    }
+    .edit-input1 {
+        width: 67%;
+    }
+    .edit-input1 select {
+        width: 85%;
+    }
+    #uploadFile {
+        width: 299px;
+    }
+    .change-photo-details {
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+    .upload-group {
+        width: 28%;
+    }
+    .photo-row {
+        padding-top: 30px;
+    }
+    .upload-form input {
+        margin-bottom: 0px;
+    }
+	
+	
+	
+/* latest update */
+
+
+.vendor-head {
+    margin-top: 14px;
+}
+
+.shatayu-logo {
+    width: 12%;
+}
+
+.view {
+    width: 65%;
+}
+	
+	.book-details1 .trans-span7 {
+    width: 100%;
+}
+
+
+
+	
+}
+
+
+
+@media (max-width: 533px){
+
+
+.trans-span7 {
+    width: 450px;
+}
+
+
+.book-details1 .trans-span71:nth-child(2) .book-para:first-child .order-text {
+    
+	width: 70%;
+    
+}
+
+.book-details1 .trans-span7 {
+    width: 100%;
+}
+
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .fa.fa-angle-left,
+    .fa.fa-angle-right {
+        font-size: 60px;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        width: 14px;
+        height: 14px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .con-row {
+        padding: 32px 0px 15px;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .row .span4 {
+        width: 236px;
+        margin: 0 auto 16px;
+    }
+    .con-offer {
+        margin-bottom: 26px;
+    }
+    .hero-unit {
+        padding: 32px 30px 30px;
+    }
+    .con-span {
+        width: 42px;
+        margin-bottom: 108px;
+    }
+    .logo {
+        width: auto;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .logo {
+        width: 36%;
+    }
+    .btn-navbar {
+        top: 30px;
+    }
+    .vendor-image {
+        padding: 50px 95px 45px 95px;
+    }
+    .vendor-sel {
+        font-size: 23px;
+        margin-top: 35px;
+    }
+    .category {
+        padding: 18px 0px;
+    }
+    .fa.vendor-icon {
+        font-size: 20px;
+    }
+    .location-header {
+        padding: 12px 17px 12px;
+    }
+    .trt-link {
+        padding: 18px 48px;
+    }
+    .vendor-category {
+        padding: 18px 40px 18px;
+    }
+    h4.large {
+        font-size: 20px;
+    }
+    .abt-p {
+        margin-top: 10px;
+    }
+    .category1 {
+        padding: 18px 17px 18px;
+    }
+    .indicators2 {
+        top: 342px;
+        left: 0px;
+        width: 100%;
+    }
+    .about-loc {
+        padding: 30px 35px;
+    }
+    .carousel-caption {
+        padding: 30px 35px;
+    }
+    .about-book {
+        padding: 30px 35px;
+        width: auto;
+    }
+    .book {
+        font-size: 24px;
+    }
+    .button {
+        font-size: 22px;
+    }
+    .book-category {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .reg-span {
+        font-size: 20px;
+    }
+    .medium {
+        font-size: 17px;
+        font-weight: normal;
+    }
+    select {
+        width: 309px;
+    }
+    .input-xxlarge {
+        width: 92.7%;
+    }
+    .span7 {
+        margin-left: 20px;
+        width: 440px;
+        margin: 0 auto;
+        float: none;
+    }
+    label {
+        font-size: 17px;
+    }
+    .form-horizontal .controls {
+        margin-left: 0px;
+        width: 101%;
+    }
+    select {
+        width: 99%;
+        padding: 11px 9px 9px;
+    }
+    .sign-section {
+        margin-left: 0px;
+        padding: 10px 1px;
+        float: left;
+        width: 100%;
+    }
+    .form-horizontal .control-group {
+        margin-left: 0px;
+        margin-top: 4px;
+        margin-bottom: 16px;
+    }
+    .cancel {
+        display: block !important;
+        float: none;
+        margin: 0px auto;
+        clear: both;
+        padding-top: 20px;
+    }
+    .button-group {
+        width: 33%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    .form-horizontal {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        clear: both;
+    }
+    /* added aug 19 */
+    
+    .form-horizontal .sign-group {
+        width: 92%;
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+    .forg-row {
+        padding-top: 18px;
+    }
+    .for-para {
+        width: 94.5%;
+        padding-bottom: 0px;
+    }
+    .form-horizontal .fg-group {
+        width: 59%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    /*    .or {        font-size: 16px;        text-align: center;        float: none;        display: block;        margin: 0px;        padding: 0px;    }    */
+    
+    #send {
+        margin: 0 auto !important;
+        float: none;
+        display: block;
+    }
+    .para-small {
+        font-size: 15px;
+    }
+    .form-horizontal .edit-group1 > label {
+        float: none;
+        width: auto;
+        padding-top: 0;
+        text-align: left;
+    }
+    .edit-controls {
+        float: none;
+        margin-left: 0px;
+    }
+    .edit-name {
+        margin-top: 0px;
+    }
+    .edit-group1 {
+        margin-left: 34px;
+        margin-bottom: 10px;
+    }
+    .edit {
+        font-size: 17px;
+    }
+    .edit-button {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 61%;
+        padding-top: 20px;
+    }
+    .form-horizontal .otp-controls {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .link-small {
+        font-size: 15px;
+    }
+    .sign-row {
+        padding-top: 6px;
+        padding-bottom: 18px;
+    }
+    .form-horizontal .button-group {
+        width: 33%;
+        margin: 0 auto !important;
+        float: none;
+        padding-bottom: 0px;
+    }
+    .form-horizontal .s-group {
+        width: 31%;
+    }
+    .message-row {
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    .check-para {
+        padding-bottom: 30px;
+    }
+    .suc-con {
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .con-row {
+        padding: 50px 0px 50px;
+    }
+    .back {
+        width: 20%;
+        padding: 10px 0px;
+    }
+    /* added aug 20 */
+    
+    .change-photo {
+        margin-top: 4px;
+    }
+    .photo {
+        margin-right: 15px;
+        width: 12%;
+    }
+    .form-horizontal .edit-group2 > label {
+        width: 85px;
+        float: left;
+    }
+    .edit-icon1 {
+        margin-top: 12px;
+    }
+    .edit-name {
+        margin-top: 12px;
+    }
+    .edit-group2 {
+        width: 95%;
+        margin: 0 auto 10px;
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+    .edit-controls1 {
+        width: 64%;
+    }
+    .photo-name.large {
+        margin-top: 5px;
+    }
+    .photo {
+        margin-right: 15px;
+        width: 11%;
+    }
+    .profile-tab {
+        margin: 16px auto 0px !important;
+    }
+    #profile {
+        padding-top: 8px;
+    }
+    .edit-input .input-xxlarge {
+        width: 290px;
+    }
+    .edit-input {
+        margin-top: 1px;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 194px;
+    }
+    .edit-input1 select {
+        width: 222px;
+    }
+    .edit-input1 {
+        width: 64%;
+    }
+    #uploadFile {
+        width: 67%;
+    }
+    .change-photo-details {
+        width: 85%;
+        margin-top: 4px;
+    }
+    .photo-row {
+        padding-top: 18px;
+    }
+    .change-section {
+        margin-top: 17px;
+        width: 92%;
+    }
+    .upload {
+        padding: 11px 20px 13px;
+    }
+    .upload-group {
+        width: 30%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    .ic__year {
+        right: 42%;
+    }
+    .booking-calendar {
+        margin: 0 auto;
+        width: 91%;
+        padding-top: 10px;
+    }
+    .book-group {
+        width: 31%;
+        margin: 0 auto !important;
+        float: none;
+        padding-top: 30px;
+    }
+    .sel-time {
+        width: 100%;
+    }
+    .select-time {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .time-group {
+        padding-top: 25px;
+    }
+    .c-span {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .book-para1 a {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .book-details {
+        padding: 18px 20px;
+    }
+    .pr-success {
+        padding-top: 0px;
+    }
+    .photo-section1 {
+        padding-top: 16px;
+    }
+	
+	/* added aug 24 */
+
+#timer {
+    font-size: 15px;
+	
+	
+}
+
+.fa-info {
+    
+    margin-right: 20px;
+	
+}
+
+.notify-detail {
+    width: 76%;
+}
+
+
+/* added aug 25 */
+
+.trans-span7 {
+    width: auto;
+}
+
+.shatayu-logo1 {
+
+    width: 10%;
+	
+	}
+	
+.order-id {
+
+    font-size: 16px;
+	margin-bottom:18px;
+	
+}
+
+
+.next-step{
+
+display:block;
+margin-bottom:5px;
+
+}
+
+
+.re-edit {
+    float: none;
+    padding: 10px 35px;
+    margin-bottom: 0px !important;
+    margin: 20px auto 6px !important;
+    display: block;
+    /* clear: both; */
+    width: 14%;
+}
+
+
+.res-head{
+
+float:none;
+
+}
+
+.res-head1{
+
+float:left;
+
+}
+
+.book-text1{
+
+float:left;
+margin-top:2px;
+
+}
+
+
+.booking-calendar1 {
+    margin: 0 auto;
+    width: 91%;
+    padding-top: 10px;
+}
+
+
+.re-group {
+    width: 31%;
+    margin: 0 auto !important;
+    float: none;
+    padding-top: 30px;
+}
+
+
+/* added aug 26 */
+
+
+.select-time1{
+
+
+width: 92%;
+margin: 0 auto;
+
+}
+
+
+.re-group1 {
+    width: 31%;
+    margin: 0 auto !important;
+    float: none;
+    padding-top: 30px;
+}
+
+
+.res-succ {
+    width: 92%;
+   
+    margin: 0 auto;
+}
+
+
+.customer-label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+}
+
+
+
+.cust-name{
+
+font-size:20px;
+
+}
+
+
+.customer-details {
+    margin-top: 30px;
+    width: 91%;
+    margin: 30px auto;
+}
+
+.fa.menu-arrow {
+    text-shadow: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* latest update */
+
+.btn-navbar {
+    top: 42px;
+}
+
+
+.carousel-indicators li, .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators {
+    bottom: 5px;
+}
+
+.row .span4 {
+    width: 236px !important;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.vendor-head {
+
+    font-size: 23px;
+	margin-top:9px;
+	
+}
+
+.indicators1 {
+    bottom: 20px;
+}
+
+.view {
+    width: 70%;
+}
+
+.shatayu-logo {
+    width: 12%;
+}
+
+.vendor-category {
+    font-size: 20px;
+}
+
+.indicators2 {
+    top: 332px;
+    left: 0px;
+    width: 100%;
+}
+
+.book {
+    font-size: 22px;
+	width: 50%;
+}
+
+.about-book {
+    padding: 30px 35px 0px;
+    width: auto;
+}
+
+
+.con-p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.medium {
+    font-size: 17px;
+    font-weight: normal;
+}
+	
+.book-reschedule .book-text1{
+
+padding-left:0px;
+
+}
+
+.book-details1 .book-para:first-child .book-text {
+    width: 60%;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+	
+	
+}
+
+
+
+
+@media (max-width: 414px) {
+
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .span7 {
+        width: 375px;
+    }
+    .input-xxlarge {
+        width: 91.6%;
+    }
+    select {
+        width: 99%;
+    }
+    .button-group {
+        width: 39%;
+    }
+    /* added aug 19 */
+    
+    .form-horizontal .fg-group {
+        width: 69%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    .edit-button {
+        width: 72%;
+    }
+    .change-photo-details {
+        width: 84%;
+        margin-top: 0px;
+    }
+    #uploadFile {
+        width: 62%;
+    }
+    .upload-group {
+        width: 35%;
+    }
+	
+	
+	/* latest update */
+
+.view {
+    width: 82%;
+}
+
+.vendor-head {
+   
+    margin-top: 5px;
+	
+}
+
+.edit-group2 .edit-controls1 {
+    width: 58%;
+}
+	
+	.book-details1 .book-para:first-child .book-text {
+    width: 56%;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+.book-text{
+
+font-size:17px;
+
+}
+
+.re-edit{
+
+width:15%;
+
+}
+
+.edit-input1 .input-xxlarge {
+    width: 151px;
+}
+
+.edit-input1 {
+    width: 60%;
+}
+
+
+.edit-input1 select {
+    width: 179px;
+}
+
+.trans-span7 {
+    width: 340px;
+}
+
+
+.book-links li {
+    float: none;
+    margin-bottom: 10px;
+}
+
+.book-links li:nth-child(2) {
+    display: none;
+}
+
+.name-val {
+    width: 86%;
+	word-wrap: break-word;
+}
+	
+.book-details1 .trans-span71:nth-child(2) .book-para:first-child .order-text {
+    width: 63%;
+}
+
+.book-details1  .trans-span7 {
+    width:100%;
+}
+
+
+}
+
+
+@media (max-width: 390px) {
+
+    #multiple_vendors .span3 {
+        width: 53%;
+        margin: 0 auto 10px !important;
+        float: none;
+        display: block;
+    }
+    #multiple_vendors .vendor-link {
+        padding: 36px 0px 36px;
+        text-align: center;
+        display: block;
+    }
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .fa.fa-angle-left,
+    .fa.fa-angle-right {
+        font-size: 54px;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .con-span {
+        line-height: 28px;
+        margin-bottom: 120px;
+        font-size: 26px;
+    }
+    .con-row {
+        padding: 24px 0px 15px;
+    }
+    .con-offer {
+        margin-bottom: 20px;
+    }
+    .hero-unit {
+        padding: 24px 20px 20px;
+    }
+    .con-p {
+        padding: 20px 0px 20px 0px;
+    }
+    .footer-para {
+        font-size: 12px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .logo {
+        width: 40%;
+    }
+    .btn-navbar {
+        top: 21px;
+    }
+    .header {
+        padding: 12px 0px;
+    }
+    footer {
+        padding: 24px 0px 24px;
+    }
+    .con-span {
+        width: 32px;
+    }
+    .carousel-control {
+        left: 12px;
+        top: 45%;
+    }
+    .carousel-control.right {
+        right: 12px;
+    }
+    .vendor-image {
+        padding: 35px 65px 30px 65px;
+        margin: 38px auto;
+    }
+    .vendor-sel {
+        font-size: 21px;
+        margin-top: 22px;
+    }
+    .trt-link h5 {
+        font-size: 16px;
+    }
+    .fa.vendor-icon {
+        font-size: 20px;
+        margin-right: 3px;
+    }
+    .trt-link {
+        padding: 15px 46px;
+    }
+    .shatayu-logo {
+        margin-right: 15px;
+    }
+    .shatayu-logo {
+        width: 13%;
+    }
+    .loc-slider1 .control1 {
+        left: 12px;
+        top: 28%;
+    }
+    .loc-slider1 .control2 {
+        top: 28%;
+    }
+    .category1 {
+        padding: 13px 17px 13px;
+    }
+    .book-category {
+        line-height: 30px;
+    }
+    .indicators2 {
+        top: 256px;
+        left: 0px;
+        width: 100%;
+    }
+    .loc-slider1 .control2.right {
+        right: 12px;
+    }
+    .carousel-caption {
+        padding: 25px 30px 30px;
+    }
+    .carousel-caption .slide-p {
+        margin-top: 10px;
+    }
+    .about-loc {
+        padding: 25px 30px 30px;
+    }
+    .about-book {
+        padding: 25px 30px 30px;
+        width: auto;
+    }
+    .book {
+        margin-top: 20px;
+        padding: 12px 0px 13px;
+        border-radius: 7px;
+    }
+    .button {
+        padding: 12px 0px 13px;
+    }
+    .view-con {
+        padding: 16px 16px;
+    }
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        margin-right: 12px;
+    }
+    #map_canvas {
+        height: 190px;
+        width: 100%;
+    }
+    #multiple_vendors .span3 {
+        width: 53%;
+        margin: 0 auto 10px !important;
+        float: none;
+        display: block;
+    }
+    #multiple_vendors .vendor-link {
+        padding: 36px 0px 36px;
+        text-align: center;
+        display: block;
+    }
+    .input-xxlarge {
+        width: 91%;
+        float: none;
+    }
+    .span7 {
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+    }
+    .amt {
+        margin-left: 10px;
+    }
+    .reg-span {
+        font-size: 17px;
+    }
+    .book-category {
+        font-size: 17px;
+    }
+    .span12 {
+        overflow: hidden;
+        padding: 16px 0px;
+    }
+    .sign-section {
+        margin-top: 16px;
+    }
+    .form-horizontal .controls {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .input-xxlarge {
+        width: 90.5%;
+        float: none;
+    }
+    .button-group {
+        width: 46%;
+    }
+    select {
+        width: 99.5%;
+    }
+    .form-horizontal {
+        padding-top: 0px;
+    }
+    /* added aug 19 */
+    
+    .forgot-pass {
+        display: none;
+    }
+    .button-group {
+        padding-top: 0px;
+    }
+    .for-para {
+        padding-bottom: 8px;
+        width: 90%;
+    }
+    .form-horizontal .sign-group {
+        width: 88%;
+        padding-bottom: 12px;
+    }
+    .form-horizontal .fg-group {
+        width: 79%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    .timer-p {
+        margin-top: 0px;
+        line-height: normal;
+    }
+    .timer {
+        padding: 16px 17px 14px;
+    }
+    .time {
+        font-size: 14px;
+    }
+    .para-small {
+        font-size: 14px;
+    }
+    .edit-group1 {
+        margin-left: 31px;
+    }
+    .edit-button {
+        width: 89%;
+        margin: 0 auto;
+    }
+    .link-small {
+        font-size: 14px;
+    }
+    .otp-controls .para-small {
+        line-height: 22px;
+    }
+    .sign-row {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .form-horizontal .button-group {
+        width: 46%;
+        margin: 0 auto !important;
+        float: none;
+        padding-bottom: 0px;
+    }
+    .form-horizontal .s-group {
+        width: 40%;
+    }
+    label {
+        font-size: 16px;
+    }
+    .otp-check {
+        width: 93%;
+        padding-top: 16px;
+    }
+    .check-para {
+        padding-bottom: 30px;
+    }
+    .otp-check .para-small {
+        width: 86%;
+        margin: 0 auto;
+        line-height: 22px;
+    }
+    .suc-con {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .red-row {
+        width: 60% !important;
+    }
+    .redirect-row {
+        padding: 60px 0px 176px;
+    }
+    .error-row {
+        padding: 40px 0px;
+    }
+    .back {
+        width: 24%;
+        padding: 6px 0px;
+        margin: 18px auto 0px;
+    }
+    /* added aug 20 */
+    
+    .edit-controls1 {
+        margin-left: 27px;
+    }
+    .edit-group2 {
+        width: 95%;
+        margin: 0 auto 5px;
+        float: none;
+    }
+    .photo {
+        width: 14%;
+    }
+    .profile-tab {
+        width: 94%;
+    }
+    .change-photo {
+        font-size: 15px;
+    }
+    .edit-input1 {
+        margin-left: 0px;
+    }
+    .edit-input .fa-caret-right {
+        margin-left: 7px;
+    }
+    .edit-input1 {
+        width: 72%;
+    }
+    .edit-input1 select {
+        width: 82%;
+    }
+    .edit-input .input-xxlarge {
+        width: 74%;
+        float: left;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 70%;
+        float: left;
+    }
+    .edit-controls1 {
+        width: 73%;
+        margin-left: 0px;
+    }
+    .input-xxlarge,
+    select,
+    .p-select {
+        font-size: 15px;
+    }
+    #uploadFile {
+        width: 55%;
+    }
+    .upload {
+        padding: 11px 20px 11px;
+        font-size: 16px;
+    }
+    .change-photo-details {
+        width: 80%;
+        margin-top: 3px;
+    }
+    .change-section {
+        margin-top: 7px;
+        margin-bottom: 39px;
+        width: 88%;
+    }
+    .upload-group {
+        width: 41%;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        
+        font-size: 15px;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        
+        font-size: 15px;
+    }
+    :-ms-input-placeholder {
+        font-size: 15px;
+    }
+    .booking-calendar {
+        margin: 0 auto;
+        width: 89%;
+    }
+    .ic__year {
+        left: 41%;
+    }
+    .book-group {
+        width: 41%;
+        margin: 0 auto !important;
+        float: none;
+        padding-top: 30px;
+    }
+    .select-time {
+        width: 89%;
+        margin: 0 auto;
+        padding-top: 12px;
+    }
+    .time-group {
+        padding-top: 21px;
+    }
+    .book-para1 {
+        line-height: 24px;
+    }
+    .book-para1 a {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        line-height: 20px;
+    }
+    .c-span {
+        font-size: 16px;
+    }
+	
+	
+/* added aug 24 */
+
+
+#timer {
+    font-size: 14px;
+	
+	margin-top:-3px;
+}
+
+
+.fa.notify-check {
+    font-size: 17px;
+    padding: 7px 7px;
+    margin-top: 3px;
+}
+
+
+.notify-detail {
+    font-size: 15px;
+	width:75%;
+	line-height:20px;
+}
+
+
+.fa-info {
+    font-size: 18px !important;
+    margin-top: 3px;
+    padding: 2px 8px;
+    margin-right: 10px;
+}
+
+
+
+
+.notify-a{
+
+font-size:15px;
+
+}
+.notify-list li{
+
+padding:16px 20px;
+
+}
+
+.trans-list li{
+
+padding:16px 20px;
+
+}
+
+.notify-list li:first-child, .trans-list li:first-child{
+
+padding-top:0px;
+
+}
+
+
+/* added aug 25 */
+
+.trans-date {
+    font-size: 16px;
+	margin-bottom:16px;
+}
+
+.shatayu-logo1 {
+    width: 14%;
+}
+
+.tdetail-con {
+    width: 88%;
+    margin: 0 auto;
+}
+
+
+.book-text {
+    font-size: 16px;
+	
+}
+.book-details1 {
+    padding: 18px;
+   
+}
+
+.trans-span7{
+
+width:auto;
+
+}
+
+
+.book-label {
+   
+    margin-top: 0px;
+	
+}
+	
+.book-text {
+	margin-left:0px;
+	
+}
+
+
+.b-link{
+
+font-size:16px;
+
+}
+.book-links li{
+float:none;
+margin-bottom:10px;
+}
+
+.book-links li:nth-child(2){
+
+display:none;
+
+}
+
+.book-links li:last-child{
+
+margin-bottom:5px;
+
+}
+
+.book-contact{
+
+padding:14px 4px;
+overflow:hidden;
+
+}
+
+.book-text1{
+
+ float:left;
+ margin-top:2px;
+
+}
+
+.order-text {
+
+    font-size: 16px;
+   
+}
+
+
+.tdetail-con1 {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+.re-edit {
+    
+    width: 18%;
+}
+
+
+.book-reschedule {
+    
+    padding-top: 18px;
+    clear: both;
+    overflow: hidden;
+	
+}
+
+.booking-calendar1 {
+
+    margin: 0 auto;
+    width: 89%;
+	
+}
+
+
+.re-group {
+    width: 41%;
+    margin: 0 auto !important;
+    float: none;
+    padding-top: 30px;
+}
+
+
+/* added aug 26  */
+
+
+.select-time1 {
+
+    width: 89%;
+    margin: 0 auto;
+	padding-top:12px;
+
+}
+
+.re-group1 {
+    width: 41%;
+    margin: 0 auto !important;
+    float: none;
+    padding-top: 30px;
+}
+
+
+.res-succ {
+    width: 89%;
+    margin: 0 auto;
+}
+
+.cust-group {
+   
+    margin-bottom: 20px;
+}
+
+
+.customer-details {
+    margin-top: 30px;
+    width: 89%;
+    margin: 25px auto 30px;
+}
+
+
+.customer-row {
+
+    padding-bottom: 96px;
+	
+}
+
+
+.fa.menu-arrow {
+  
+    font-size: 20px;
+   
+}
+
+
+
+/* latest update */
+
+
+.btn-navbar {
+    top: 32px;
+}
+
+.carousel-indicators {
+    bottom: 2px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    margin-right: 8px;
+}
+
+.con-p {
+    
+    font-size: 14px;
+	
+}
+
+
+.con-offer ,.con-row1 h3{
+    
+    font-size: 18px;
+	
+	}
+	
+	
+	.vendor-head {
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.shatayu-logo {
+    width: 18%;
+}
+
+.loc-slider .carousel-indicators li,.loc-slider .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+}
+
+.indicators1 {
+    bottom: 20px;
+}
+
+.loc-slider .carousel-indicators li,.loc-slider .carousel-indicators .active {
+    margin-right: 12px;
+}
+
+.button {
+    padding: 15px 0px 15px;
+}
+
+.view{
+
+width:auto;
+
+}
+
+.view-con {
+    padding: 20px 16px;
+}
+
+
+.vendor-loc-row {
+    padding: 0px 0px 10px!important;
+}
+
+
+.hour-t{
+
+font-size:16px;
+
+}
+
+.book-category {
+    font-size: 18px;
+}
+
+
+.loc-slider1 .carousel-indicators li,.loc-slider1 .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+	margin-right:12px;
+}
+
+.book {
+    font-size: 20px;
+    width: auto;
+	border-radius:4px;
+}
+
+
+.indicators2 {
+    top: 250px;
+    left: 0px;
+	bottom:auto;
+    width: 100%;
+}
+
+
+.reg-span{
+
+font-size:18px;
+
+}
+.footer-para {
+    font-size: 14px;
+}
+
+.medium {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+.time-icons {
+    float: none;
+    text-align: CENTER;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* sep 28 */
+
+.book-details1 .book-label {
+    font-size: 15px;
+}
+
+.book-details1 .book-label {
+    width: 70px;
+}
+
+.book-details1 .book-text {
+    font-size: 15px;
+}
+
+.book-details1 .order-text {
+    font-size: 15px;
+}
+.book-details1 {
+    padding: 18px 4px;
+}
+
+.vendor-head{
+
+line-height:normal;
+
+}
+
+.header{
+
+padding:12px 0px 0px;
+
+}
+
+
+.abt-head, .book-head {
+   
+    line-height: normal;
+	
+}
+
+
+.edit-group1 .edit-name {
+    margin-top: 0px;
+}
+
+.book-details1 .book-para:first-child .book-text {
+    width: 56%;
+    word-wrap: break-word;
+    text-align: right;
+}
+
+
+
+.book-details2 {
+    padding: 18px;
+}
+
+.edit-group2 .edit-name {
+    margin-top: 12px;
+}
+
+.edit-group2 .edit-controls1 {
+    width: 60%;
+}
+
+.photo-name.large {
+    margin-top: 5px;
+    word-wrap: break-word;
+    width: 88%;
+    overflow: hidden;
+}
+
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    .even_row {
+        background: none repeat scroll 0 0 #eee;
+    }
+    .fa.fa-angle-left,
+    .fa.fa-angle-right {
+        font-size: 48px;
+    }
+    .con-span {
+        line-height: 28px;
+        margin-bottom: 138px;
+        font-size: 26px;
+    }
+    .footer-para {
+        font-size: 12px;
+        width: 71%;
+        margin: 0 auto;
+    }
+    .btn-navbar {
+        top: 19px;
+    }
+    .vendor-image {
+        padding: 35px 55px 30px 56px;
+        margin: 38px auto;
+    }
+    .fa.vendor-icon {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 19px; /* updated */
+    }
+    .shatayu-logo {
+        width: 14%;
+    }
+    .indicators2 {
+        top: 226px;
+        left: 0px;
+        width: 100%;
+    }
+    .book-category {
+        font-size: 17px;
+        float: none;
+    }
+    .time-icons {
+        float: none;
+        text-align: CENTER;
+        margin: 0 auto;
+        width: 54%;
+        overflow: hidden;
+    }
+    .input-xxlarge {
+        
+        float: none;
+		width:89.5%;
+		
+    }
+    .button-group {
+        width: 52%;
+    }
+    .time-icons {
+        float: none;
+        text-align: CENTER;
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    /* added aug 19 */
+    
+    .form-horizontal .fg-group {
+        width: 89%;
+        margin: 0 auto !important;
+        float: none;
+    }
+    .span7 {
+        width: 88%;
+        margin: 0 auto;
+        float: none;
+    }
+    .edit {
+        font-size: 14px;
+        margin-top: 1px;
+    }
+    .edit-group1 {
+        margin-left: 33px;
+    }
+    .edit-button {
+        width: 87%;
+        margin: 0 auto;
+    }
+	
+	
+
+    .form-horizontal .s-group {
+        width: 46%;
+    }
+	
+	
+    /* added aug 20 */
+    
+    .photo {
+        width: 16%;
+    }
+    .edit-group2 {
+        width: 93%;
+        margin: 0 auto 5px;
+    }
+    .photo-section {
+        width: 88%;
+    }
+    .edit-controls1 {
+        width: 67%;
+        margin-left: 0px;
+    }
+    .edit-input .input-xxlarge {
+        width: 153px;
+    }
+    .edit-input1 .input-xxlarge {
+        width: 62%;
+        float: left;
+    }
+    .edit-input1 {
+        width: 67%;
+    }
+    .edit-input1 select {
+        width: 77%;
+    }
+    .change-photo-details {
+        width: 77%;
+        margin-top: 3px;
+    }
+    #uploadFile {
+        width: 47%;
+    }
+    .button-group {
+        width: 45%;
+    }
+    .ic__year {
+        left: 46.5%;
+        right: auto;
+    }
+    .book-group {
+        width: 46%;
+    }
+	
+	
+	
+/* added aug 24 */
+
+.notify-detail {
+    font-size: 14px;
+}
+
+.notify-a{
+font-size:14px;
+}
+
+
+
+/* added aug 25 */
+
+.trans-span7{
+
+width:auto;
+
+}
+
+
+.shatayu-logo1 {
+    width: 16%;
+	margin-right: 21px;
+}
+
+
+.re-edit{
+
+width:21%;
+
+}
+
+.re-group {
+    width: 46%;
+}
+
+
+
+.re-group1 {
+    width: 46%;
+}
+
+
+.customer-row {
+    padding-bottom: 10px;
+}
+
+.fa.menu-arrow {
+  
+    font-size: 20px;
+   
+}
+
+/* latest update */
+
+
+.btn-navbar {
+    top: 31px;
+}
+
+.vendor-head {
+    font-size: 21px;
+    margin-top: 4px;
+}
+
+
+.shatayu-logo {
+    width: 16%;
+}
+
+.view {
+    
+    background: url(../images/view-arrow.png) no-repeat 6px center #23B249;
+    
+}
+
+.indicators2 {
+    top: 219px;
+    left: 0px;
+    width: 100%;
+}
+
+.book-label {
+   
+    width: 82px;
+	
+}
+
+.medium {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/* added sep 28 */
+
+
+.edit-hover .edit-button .primary-button {
+   
+    padding: 5px 8px;
+  
+}
+.vendor-head {
+    font-size: 18px;
+    
+}
+
+.trans-header .vendor-head{
+
+font-size:15px;
+
+}
+
+.trans-header {
+   
+    padding: 14px 14px;
+   
+}
+
+.book-contact {
+
+    padding: 14px 4px;
+    
+}
+
+
+
+.book-details1 {
+
+    padding: 18px 4px;
+    
+}
+
+.reg-head .fa.fa-check:first-child{
+
+margin-bottom:2px;
+
+}
+	.book-details2 {
+    padding: 18px;
+}
+
+
+
+
+#timer{
+    
+    width:50%;
+    
+}
+
+
+.trans-header .vendor-head {
+    margin-top: 9px;
+}
+
+input.checkbox[type="checkbox"]{
+
+
+margin-right:14px;
+
+}
+.name-val {
+    width: 84%;
+    word-wrap: break-word;
+}
+
+.book-details1 .trans-span71:nth-child(2) .book-para:first-child .order-text {
+    width: 60%;
+}
+
+.photo-name.large {
+    margin-top: 5px;
+    word-wrap: break-word;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+	
+}

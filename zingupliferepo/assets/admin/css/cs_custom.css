@@ -1,0 +1,363 @@
+
+.error_validate_msg{
+    
+    
+    color:#00893e;
+}
+
+.cs_vendor_details{
+    
+    color:#00a3d8;
+    margin-left:5px;
+}
+.cs_vendor_details:hover{
+    
+    color:#000;
+}
+
+.add_new{
+    
+    background: #888888;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+#gallery_img{
+ border: 1px solid rgb(232, 222, 189);
+    height: 75px;
+    padding: 5px;
+    width: 100px;
+    padding-top:10px;
+    margin-left:4px;
+}
+.img_del{
+    
+    border: medium none;
+    height: 10px;
+    margin-bottom: 65px;
+    margin-left: -15px;
+    width: 10px;
+}
+
+#service_gallery_img{
+ border: 1px solid rgb(232, 222, 189);
+    height: 75px;
+    padding: 5px;
+    width: 100px;
+    padding-top:10px;
+    margin-left:4px;
+}
+.service_img_del{
+    
+    border: medium none;
+    height: 10px;
+    margin-bottom: 65px;
+    margin-left: -15px;
+    width: 10px;
+}
+
+.images_gallery1{
+    
+    clear: both;
+padding-top: 27px;
+}
+
+.package{
+    
+    width:398px;
+}
+
+.adding_package{
+    
+    margin-top:30px;
+    background-color: #008d32;
+    color: #fff !important;
+    padding: 10px 15px 14px;
+    font-size: 20px;
+}
+
+
+.cs_business_services{
+    
+    
+    list-style:none;
+    padding-left:0px;
+    margin-left:0px;
+    
+}
+
+
+.cs_business_services li{
+    
+    
+    margin-bottom:5px;
+    
+}
+.cs_business_services li input{
+
+    margin-right:5px;
+    
+}
+
+.partner1.form-horizontal .edt3 .control-label {
+    width: 100%;
+}
+
+.partner1.form-horizontal .control-label{
+    width: 28%;
+}
+
+.partner1.form-horizontal .edt3 .control-label.edt1{
+    width: 28%;
+}
+
+.partner1.form-horizontal .edt3 textarea {
+    width: 387px;
+}
+
+.edit-group3.agree2 {
+    margin-top: 30px;
+    margin-left: 22.5%;
+}
+
+.form-horizontal .edit-group3.agree2 .control-label {
+    width: 88%;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.form-horizontal .controls1.ctr3 {
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.partner1.infob1.form-horizontal .control-label {
+    width: 26%;
+}
+
+.partner1.infob1.form-horizontal .edt3 .control-label {
+    width: 100%;
+}
+
+.partner1.infob1.form-horizontal .edt3 a {
+    color: #08C;
+}
+
+.partner1.infob1.form-horizontal .edt3 .control-label.edt1{
+    width: 26%;
+}
+
+.partner1.infob1.form-horizontal .edt3 .control-label.edt2{
+    width: 64%;
+}
+
+.partner1.form-horizontal .edt3 .control-label.lbl-btn {
+   
+color: #08C;
+   cursor:pointer;
+}
+
+.form-horizontal .controls1.ctr2 {
+    margin-left: 27%;
+    margin-top: 20px;
+}
+
+.cs_package_popup{
+    display:none;
+    border:1px solid black;
+    position: fixed;
+    top: 30px;
+    width: 40%;
+    margin: 0 auto; 
+    left: 0px;
+    right: 0px;
+    z-index:999;
+    background:#fff;
+    padding: 15px;
+    
+}
+
+.cs_package_popup {
+    top: 200px;
+}
+
+.cs_package_popup .package {
+    width: 370px;
+}
+
+.cs_package_popup .adding_package {
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #088B2B;
+    color:#088b2b !important;
+}
+
+.mrg {
+    margin-bottom: 30px;
+}
+.admin-header1{
+    
+    margin-top:5px;
+}
+
+.customer-edit-input.lat_long{
+    
+    margin-left:284px;
+ 
+}
+.slots_weekdays .multiselect-selected-text{
+    
+    font-size:18px;
+}
+
+.slot_weekdays_div{
+    
+    float:left;
+}
+
+.slot-weekends_div{
+    float:right;
+}
+
+.slot_edit_dates .multiselect-selected-text{
+    font-size:18px;
+    text-align: left;
+}
+
+.partner1.infob1.form-horizontal .edt3 .lbl_bui label {
+    display: inline-block;
+    width: auto;
+    padding-right: 5px;
+}
+
+.partner1.infob1.form-horizontal .edt3 .lbl_bui label:first-child {
+    width: 100%;
+}
+
+.txt-ar textarea {
+    width: 388px;
+    height: 80px;
+}
+
+.bsr-slots .row,
+.slots_weekdays .row{
+    margin-left: 0;
+}
+
+.partner1.infob1.form-horizontal.bsr-slots .edit-group3 .col-xs-6 label {
+    width: 100%;
+}
+
+.slot_edit_dates .multiselect {
+    height: 44px;
+    width: 398px;
+    text-align: left;
+    padding-left: 17px;
+}
+
+.slot_edit_dates .btn .caret {
+    position:relative;
+    right: -70%;
+}
+
+.slot_edit_dates .dropdown-menu {
+  right: 0;  
+}
+
+.partner1.infob1.form-horizontal .slots_weekdays .col-xs-6 label {
+    width: 100%;
+}
+
+.slot_weekdays_div .multiselect,
+.slot-weekends_div .multiselect{
+    width: 238px;
+    height: 40px;
+    text-align: left;
+}
+
+.slot_weekdays_div .btn .caret,
+.slot-weekends_div .btn .caret{
+    position:relative;
+    right:-49%;
+}
+
+.slots_weekdays p.add-button {
+    margin-top: 10px;
+}
+
+.slot_weekdays_div .multiselect-container,
+.slot-weekends_div .multiselect-container{
+ width:100%;
+}
+
+
+.service_duration_hrs {
+	float: left;
+	margin-right: 10px;
+}
+
+.service_duration_hrs select {
+	width: 260px;
+}
+
+.one_time_slot_start_time {
+	float: left;	
+	margin-right: 10px;
+	}
+	
+.one_time_slot_start_time input {
+	width: 166px;	
+	}	
+	
+	
+	.one_day_pack_description {
+    height: 153px;
+    margin: 0;
+    width: 388px;
+}
+
+
+  .new-button{
+	
+	color: #fff !important;
+	
+	}
+	
+	
+.slots_weekdays .btn-group .btn .caret{	
+	margin-left: 0px !important;
+	margin-top: 7px !important;
+
+}
+
+.slots_weekdays .date-pic input {
+	width:210px;
+}	
+	
+.slots_weekdays .add-time-block,
+.slots_weekdays .add-time-block1 {
+	margin-top: 0;
+}
+
+.slots_weekdays #start-date-end-date,
+.slots_weekdays #start-date-end-date1 {
+	margin-top: 0;
+}
+
+.slots_weekdays .multiselect {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,36 @@
+/**
+ * bbPress RTL (Right-To-Left) CSS
+ *
+ * @package bbPress
+ * @subpackage Theme
+ */
+
+/* =bbPress Style
+-------------------------------------------------------------- */
+
+#bbpress-forums .bbp-body ul li h5 {
+    font-size: 12px;
+	font-family: 'Droid Serif', serif;
+}
+
+.bbp-the-content-wrapper textarea.wp-editor-area{
+	font-size: 14px;
+    border: 1px solid #e8e8e8;
+	height: 70px;
+	margin-bottom:20px !important;
+}
+
+.bbp-form label{
+	margin-top:5px;
+}
+
+.widget_categories_statistics.categories_var2 .categories_list li ul li  {
+    color: #212428;
+}
+.widget_categories_statistics.categories_var2 .categories_list li ul li span{
+    border-color: #696E6E;
+}
+
+
+
+

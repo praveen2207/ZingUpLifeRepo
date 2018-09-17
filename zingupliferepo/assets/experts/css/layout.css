@@ -1,0 +1,132 @@
+/* #Media Queries
+================================================== */
+	
+	
+	
+	@media only screen and (min-width: 1200px) {		
+	a.tooltip span{margin-left: 35px !important;}
+	
+	.checkout-box-inner{min-height: 690px;}
+	
+	.menu a{
+ padding: 14px 80px !important;
+ 
+}
+	
+	}
+	
+	
+	@media screen and (min-width: 993px) and (max-width: 1200px) {	
+
+		.left-checkout li {
+    line-height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}	
+	}
+
+	
+	@media only screen and (max-width: 992px) {		
+		
+			#header { position: relative; }
+			.featured-details h4{font-size:15px !important;}
+			.location-button .button{width:auto !important}
+			.home-logo li{width:49% !important; margin-bottom:15px; display:inline-block; float:none !important}
+			a.tooltip span{margin-left:25% !important}
+						
+.top-checkout .col-xs-7, .top-checkout .col-xs-5{width:50% !important; }
+.left-checkout li {    
+    line-height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+	}	
+
+@media only screen and (max-width: 767px) {
+		.featured-content li{width:50% !important;}
+		.featured-img img {
+    width: 100%;
+}
+.process-step li{width:50% !important; margin-bottom:70px;}
+.process-content{padding-bottom:0px !important;}
+.process-step::after{display:none;}
+.bottom-box-inner .col-xs-3{width:50% !important;}
+.box-inner{margin-bottom:20px;}
+
+.box-img > img {
+    width: 100%;
+}
+
+.col-xs-12, .col-xs-11, .col-xs-10, .col-xs-9, .col-xs-8, .col-xs-7, .col-xs-6, .col-xs-5, .col-xs-4, .col-xs-3, .col-xs-2, .col-xs-1{width:100%;}
+
+.top-header	.col-xs-4{width:33.3333% !important}
+.top-header	.col-xs-8{width:66.6666% !important}	
+.banner-content{position:relative !important; background:#333; padding:30px !important}	
+.location-field, .location-button{width:100% !important;}
+.location-button .button{width:100% !important;}
+.banner-content h2{font-size:40px !important;}
+
+.our-experts li {
+    width: 50%;
+}
+
+.menu a{color:#fff !important;}
+.top-footer input, .top-footer .col-xs-3 {
+    margin-bottom: 15px !important;
+}
+.postal-email .col-xs-3 {
+    margin-bottom: 0px !important;
+}
+.postal-email::before{background-position:100% 0 !important}
+
+.home-content-col {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+	border-right:none !important;
+}
+
+.home-content-col.last{border-bottom:none !important}
+
+.featured-inner{margin-bottom:20px;}
+.banner-content-inner {
+    padding: 0 0px !important;
+}
+
+.footer-inner h3{min-height:0px !important}
+.menu a{padding: 15px !important;}
+
+.top-checkout .col-xs-7, .top-checkout .col-xs-5{width:100% !important; }
+.checkout-help{float:none !important; text-align:left !important; margin-bottom:15px;}
+	}
+@media only screen and (min-width: 768px) {	
+.menu{background:none !important; text-align:center;}
+.menu > li{float:none !important; display:inline-block;}
+
+.menu li a{text-align:left}
+}
+	
+	@media only screen and (max-width: 600px) {		
+	.top-header	.col-xs-4{width:100% !important}
+.top-header	.col-xs-8{width:100% !important}	
+#logo{text-align:center; width:100%; margin-bottom:15px;}
+.right-header{float:none !important; text-align:center;}
+
+.testimonial-inn {
+    border-left: medium none !important;
+    border-top: 4px solid #ff7802;
+    margin-top: 15px;
+}
+			
+	}
+	
+	@media only screen and (max-width: 479px) {		
+		.featured-content li{width:100% !important}
+		.process-step li{width:100% !important}
+		.bottom-box-inner .col-xs-3{width:100% !important}
+		.our-experts li {width: 100%;}
+		
+		.home-logo li{width:100% !important;}
+			a.tooltip span{margin-left:25% !important}
+			
+	}

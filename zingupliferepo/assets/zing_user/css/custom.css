@@ -1,0 +1,46 @@
+
+
+/*datepicker css add*/
+.smedate .ui-datepicker-header{background: #fff;border:0;}
+.smedate .ui-datepicker-title{color: #16749f;font-size: .9em;}
+.smedate .ui-datepicker th{font-weight: normal;color: #2a2a2a;}
+/*.smedate .ui-state-highlight
+.ui-widget-content .ui-state-highlight{
+    background: #4bc850 !important;
+    border-color: #4bc850 !important;
+    text-align: center;
+    border-radius: 50%;
+}*/
+.smedate .ui-state-default, 
+.ui-widget-content .ui-state-default{background: #fff;border:0;text-align: center;}
+.smedate .ui-widget-header .ui-icon{
+    background-image: url("../img/chevron-left-right.png");
+    cursor: pointer;
+}
+.smedate .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover{
+    background: #fff;
+    box-shadow: none;
+    border:0;
+}
+.smedate .ui-icon-circle-triangle-e {background-position: -53px -24px;}
+.smedate .ui-icon {width: 28px;height: 53px;}
+.smedate .ui-icon-circle-triangle-w {background-position: -0px -21px;}
+.smedate .ui-datepicker.ui-datepicker-multi{border:0;width: 47em !important;}
+.smedate .ui-datepicker .ui-datepicker-prev span, 
+.ui-datepicker .ui-datepicker-next span{top: 115px;}
+.smedate .ui-datepicker .ui-datepicker-prev span{left: -10px;}
+.smedate .ui-datepicker .ui-datepicker-next span{left: 30px;}
+.smedate .ui-datepicker-multi .ui-datepicker-group table{width: 80%;}
+.smedate .ui-datepicker td{padding: 2px;}
+.avaBox>ul{margin: 0;padding: 0;list-style: none;}
+.avaBox>ul>li{float: left;padding: 0 10px;}
+.avaBox>ul>li>img{margin-right: 5px;}
+.avaBox{display: -webkit-box;padding: 10px 0;padding-left: 35px;height: auto;
+    overflow: hidden;}
+.timeSlot{border-top: 1px solid #cdcdcd;text-align: center;padding: 15px;padding-bottom: 0;}
+.date.dashDate.smedate{padding: 15px;margin-bottom: 0 !important;    margin: 0 10px;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+    background: #4bc850;border-radius: 50%;}
+/*.text_chat, .audio_chat, .video_chat{display: none;}*/
+.chatTab .nav-tabs{border-bottom: 0;}
+.text_chat, .audio_chat, .video_chat{display: none;}

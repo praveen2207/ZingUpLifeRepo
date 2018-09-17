@@ -1,0 +1,295 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+div.wpcf7 .control-label {
+  min-width: 95px;
+  width: 20%;
+  float: left;
+  padding-top: 10px;
+}
+div.wpcf7  .controls {
+  float: left;
+  width: 80%;
+}
+div.wpcf7  .controls-warning, div.wpcf7  .controls-error, div.wpcf7  .controls-info, div.wpcf7  .controls-success {
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+}
+div.wpcf7  .controls-radio {
+  height: 40px;
+  padding-top: 10px;
+  display: block;
+}
+
+div.wpcf7  .controls-select {
+  height: 50px;
+  float:left;
+  width: 80%;
+}
+
+div.wpcf7  input.warning {
+  color: #feb92b;
+  border-color: #feb92b;
+}
+div.wpcf7  input.error {
+  color: #ec2913;
+  border-color: #ec2913;
+}
+div.wpcf7  input.info {
+  color: #13b7ff;
+  border-color: #13b7ff;
+}
+div.wpcf7  input.success {
+  color: #a4d149;
+  border-color: #a4d149;
+}
+
+div.wpcf7  input[type="radio"] + label, div.wpcf7  input[type="radio"] + span {
+  padding-left: 35px;
+  padding-right: 15px;
+}
+
+div.wpcf7  input[type="checkbox"] + label, div.wpcf7  input[type="checkbox"] + span {
+  padding-right: 15px;
+}
+
+
+div.wpcf7   input[type="radio"] + label, div.wpcf7   input[type="radio"] + span{
+  width: auto !important;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  line-height:24px;
+}
+
+div.wpcf7   input[type="radio"] + label:after, div.wpcf7   input[type="radio"] + label:before,
+div.wpcf7   input[type="radio"] + span:after, div.wpcf7   input[type="radio"] + span:before{
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #e9e9e9;
+}
+
+div.wpcf7   input[type="radio"] + label:after,
+div.wpcf7   input[type="radio"] + span:after{
+  display:none;
+  border:none;
+  background:#3e454c;
+  width:10px;
+  height:10px;
+  left:6px;
+  top:6px;
+}
+
+div.wpcf7   input[type="radio"] + label:after, div.wpcf7   input[type="radio"] + label:before,
+div.wpcf7   input[type="radio"] + span:after, div.wpcf7   input[type="radio"] + span:before  {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+div.wpcf7   input[type="radio"]:checked + label:after,
+div.wpcf7   input[type="radio"]:checked + span:after{
+  display: block;
+}
+
+div.wpcf7   input[type="checkbox"] + label, div.wpcf7   input[type="checkbox"] + span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 8px;
+  line-height:24px;
+}
+
+div.wpcf7   input[type="checkbox"] + label:after, div.wpcf7   input[type="checkbox"] + span:after{
+  content: "\f00c";
+  font-family: FontAwesome;
+  line-height: 24px;
+  top: 0;
+  font-size: .85em;
+  position: absolute;
+  left: 5px;
+  color: #292f38;
+  display: none;
+}
+
+div.wpcf7   input[type="checkbox"] + label:before, div.wpcf7   input[type="checkbox"] + span:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 9px;
+  width: 22px;
+  height: 23px;
+  background: url("../images/checkbox.png") no-repeat;
+}
+
+div.wpcf7   input[type="checkbox"]:checked + label:after, div.wpcf7   input[type="checkbox"]:checked + span:after{
+  display: block;
+}
+
+div.wpcf7   input[type="radio"]:checked + label:before, div.wpcf7   input[type="radio"]:checked + span:before{
+  background-position: 0 -22px;
+}
+
+
+
+
+
+
+
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.wpcf7-form  textarea {
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+  height: 160px;
+  }
+
+
+.wpcf7-form p {
+	font-weight: 400;
+	margin-top: 12px;
+	line-height: 28px;
+	vertical-align: top;
+	font-size: 14px;
+	min-height: 40px;
+}
+
+.wpcf7-form p.col-half {
+	display: inline-block;
+	width: 50%;
+}
+
+.wpcf7-form p.col-half:nth-child(2) {  padding-right: 15px; padding-left: 0;  }
+.wpcf7-form p.col-half:nth-child(3) { padding-left: 15px; padding-right: 0; }
+
+	.wpcf7-form p label {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+
+	.wpcf7-form span.required { color: #e74c3c; }
+
+.wpcf7-response-output {
+	position: relative;
+	margin-bottom: 25px;
+	padding: 25px 20px 25px 65px;
+	font-size: 14px;
+
+	-webkit-border-radius: 4px;
+			border-radius: 4px;
+}
+
+.wpcf7-mail-sent-ok {
+	background-color: #e4f3eb;
+	color: #27ae60;
+}
+
+.wpcf7-mail-sent-ng,
+.wpcf7-spam-blocked,
+.wpcf7-validation-errors {
+	background-color: #f8e9e8;
+	color: #cb2700;
+}
+
+.wpcf7-mail-sent-ok:before,
+.wpcf7-mail-sent-ng:before,
+.wpcf7-spam-blocked:before,
+.wpcf7-validation-errors:before {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	font-size: 36px;
+	font-family: 'fontawesome';
+
+	-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+}
+
+.wpcf7-mail-sent-ok:before   { color: #2ecc71; content: "\f118"; }
+
+.wpcf7-mail-sent-ng:before,
+.wpcf7-spam-blocked:before,
+.wpcf7-validation-errors:before { color: #e74c3c; content: "\f071"; }
+
+span.wpcf7-form-control-wrap { position: relative; }
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item { margin-left: 0; }
+
+.wpcf7-display-none { display: none; }
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error { display: none; }
+
+div.wpcf7 .placeheld { color: #888; }
+
+.wpcf7-submit {
+font: 14px/21px 'Roboto', 'sans-serif';
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+	display: inline-block;
+	background: #3e454c;
+	-webkit-transition: color .4s ease, background-color .4s ease;
+  transition: color .4s ease, background-color .4s ease;
+}
+
+.wpcf7-submit:hover {
+	background: #ff680d;
+	color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.wpcf7-form p.col-half,
+	.wpcf7-form p.col-half:nth-child(2),
+	.wpcf7-form p.col-half:nth-child(3) {
+		display: block;
+		padding: 0;
+		width: 100%;
+	}
+
+
+}

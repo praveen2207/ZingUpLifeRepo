@@ -1,0 +1,501 @@
+.salutationDivision{
+    margin-top: 76px !important;
+    /* border-bottom: 1px solid gray; */
+    padding-left: 5px;
+}
+body{
+	background:white !important;
+}
+.margin-top-card{
+	margin-top:5px;
+}
+.assessments-col{
+     padding-top: 10px !important;
+     padding-left: 20px !important;
+}
+.assessments-header,.stats-header,.reports-header,.goals-header{
+    padding: 8px;
+    font-size: 0.7em;
+    color: black;
+    background-color:#8EDE73 !important;/*#008d32 !important;/*#52757a!important;#f39c12;*/
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+        margin-bottom: 1px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.assessments-body,.reports-body,.stats-body,.goals-body{
+    margin-top: 2px;
+    padding: 8px;
+    padding-left: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.reports-body,.goals-body{
+    margin-bottom:30px
+}
+
+.assessments-body button{
+    height: 46px;
+    color: #000;
+    background-color: #eceef100;
+    border-color: #f6f9fb;
+    border-radius: 10px;
+    font-size: 0.8em;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.stats{
+padding-top: 10px;
+padding-left: 0px;
+}
+.recents{
+    padding-top: 10px;
+    padding-left: 0px
+}
+.card-1,.card-2,.card-3,.card-4{
+    height: 90px;
+    width: 110%;
+    float: left;
+    background-color: white;
+    margin: 5px;
+    border-radius: 8px;
+}
+.reports-col,.goals-col{
+   /* margin-top: 50px;*/
+    float: left;
+}
+.reports-col{
+    position: relative;
+    left: 15px;
+}
+
+.card{
+    background-color: rgba(250,250,250,0.9);
+    border-radius: 5px;
+        min-height: 158px;
+}
+.goalCard{
+    border-radius: 5px;
+}
+.report_image{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.margin-top-3{
+    margin-top: 6px;
+}
+.margin-left{
+    position: relative;
+    left: 3px;
+}
+.margin-right{
+    position: relative;
+    right: 3px;
+}
+.fa-download{
+    margin-left: 7px ;
+}
+
+.report-text{
+    font-size: 0.8em;
+    font-weight:bold;
+}
+.assessment-buttons{
+	font-weight:100;
+	color:black;
+	text-transform:uppercase;
+}
+ .btn.disabled {
+ 	pointer-events:all !important;
+    cursor:not-allowed  !important;
+    
+ }
+.stat-values{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 2em;
+    margin-top: 50px !important;
+    /* margin-left: -2%; */
+}
+.stat-circle{
+	 position: absolute;
+    z-index: 0;
+    
+}
+.img-stat-circle{
+	width: 85px;
+}
+
+
+/* Comparision Headers */
+.comparision-header{
+    /*line-height:18px;*/
+    padding-left: 0px;
+}
+.comparision-header span{
+       font-size: 0.8em;
+}
+.theme-title-row{
+    line-height:45px;
+    /*border-bottom: 1px solid gray;*/
+    
+}
+.theme-title-row.last-child{
+    border-bottom: 0px;
+}
+.theme-title-row span{
+    text-align: center;
+}
+.non-theme-section{
+    margin-top: 30px;
+}
+.theme-title{
+    padding-left: 0px;
+}
+.img-responsive{
+    height: 513px !important;
+}
+
+
+.minHeightAssesmentRow{
+	min-height:529px !important;
+}
+.minHeightWheelRow{
+	min-height: 529px !important;
+}
+
+.goalTheme{
+	/*font-size:1.1em !important;*/
+	font-weight:bold;
+}
+.goalName{
+/*	font-size:1.0em !important;*/
+}
+.paddingGoals{
+	/*padding-top:15px;*/
+}
+.comparison-info-section{
+	    min-height: 229px;
+}
+
+/**Media Query to resolve My wellness summary section size for various screen resolution*/
+/**For 100% screen*/
+@media screen and (min-width:1349px) and (max-width:1500px) {
+
+	.assessments-body button {
+		font-size:0.7em;
+	}
+	.theme-title{
+	font-size: 0.8em;
+	}
+		.stats-1-row{
+	         top: -40px;
+    left: -13px;
+}
+.stats-2-row{
+   position: relative;
+    bottom: 30px;
+    right: -67px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-row{
+               position: relative;
+    bottom: 26px;
+    left: -96px;
+}
+.stats-6-row,.stats-3-row{
+          position: relative;
+    /* margin-top: 13px; */
+    top: 58px;
+}
+.stats-6-row{
+	       left: -126px;
+}
+.stats-3-row{
+    margin-left: 25px;
+   right: -100px;
+}
+.stats-5-row,.stats-4-row{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+   
+    top: -31px;
+
+}
+.stats-4-row{
+        /* margin-left: 0px; */
+       right: -102px;
+}
+.stats-5-row{
+	        left: -66px;
+}
+.stats-8-row{
+	       top: -19px;
+    left: -17px;
+}
+}
+/**For 90% screen*/
+@media screen and (min-width:1501px) and (max-width:1600px) {
+		.stats-1-row{
+	         top: -40px;
+    left: -13px;
+}
+.stats-2-row{
+   position: relative;
+    bottom: 30px;
+    right: -55px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-row{
+               position: relative;
+    bottom: 26px;
+    left: -84px;
+}
+.stats-6-row,.stats-3-row{
+          position: relative;
+    /* margin-top: 13px; */
+    top: 58px;
+}
+.stats-6-row{
+	    left: -110px;
+}
+.stats-3-row{
+    margin-left: 25px;
+    right: -93px;
+}
+.stats-5-row,.stats-4-row{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+   
+    top: -31px;
+
+}
+.stats-4-row{
+        /* margin-left: 0px; */
+       right: -102px;
+}
+.stats-5-row{
+	    left: -61px;
+}
+.stats-8-row{
+	       top: -19px;
+    left: -17px;
+}
+}
+/**For 80% screen or Big Screen resolution*/
+@media screen and (min-width:1601px) and (max-width:1713px) {
+	.stats-1-row{
+	         top: -40px;
+    left: -13px;
+}
+.stats-2-row{
+   position: relative;
+    bottom: 30px;
+    right: -55px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-row{
+               position: relative;
+    bottom: 26px;
+    left: -84px;
+}
+.stats-6-row,.stats-3-row{
+          position: relative;
+    /* margin-top: 13px; */
+    top: 58px;
+}
+.stats-6-row{
+	    left: -110px;
+}
+.stats-3-row{
+    margin-left: 25px;
+    right: -93px;
+}
+.stats-5-row,.stats-4-row{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+   
+    top: -31px;
+
+}
+.stats-4-row{
+        /* margin-left: 0px; */
+       right: -102px;
+}
+.stats-5-row{
+	    left: -61px;
+}
+.stats-8-row{
+	       top: -19px;
+    left: -17px;
+}
+}
+/**For 75% screen or Big Screen resolution*/
+@media screen and (min-width:1601px) and (max-width:1830px ) {
+
+.stats-1-row{
+	         top: -40px;
+    left: -13px;
+}
+.stats-2-row{
+   position: relative;
+    bottom: 30px;
+    right: -55px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-row{
+               position: relative;
+    bottom: 26px;
+    left: -84px;
+}
+.stats-6-row,.stats-3-row{
+          position: relative;
+    /* margin-top: 13px; */
+    top: 58px;
+}
+.stats-6-row{
+	    left: -110px;
+}
+.stats-3-row{
+    margin-left: 25px;
+    right: -93px;
+}
+.stats-5-row,.stats-4-row{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+   
+    top: -31px;
+
+}
+.stats-4-row{
+        /* margin-left: 0px; */
+       right: -102px;
+}
+.stats-5-row{
+	    left: -61px;
+}
+.stats-8-row{
+	       top: -19px;
+    left: -17px;
+}
+}
+
+@media screen and (min-width:1831px ) {
+   .stats-1-circle{
+	    top: -7px;
+    left: 304px;
+}
+
+.stats-2-circle{
+     position: relative;
+    bottom: 14px;
+    right: -88px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-circle{
+             position: relative;
+    bottom: 8px;
+    left: -42px;
+}
+.stats-6-circle,.stats-3-circle{
+        position: relative;
+    /* margin-top: 13px; */
+    top: 83px;
+}
+.stats-6-circle{
+	       left: -100px;
+    top: 53px;
+}
+.stats-3-circle{
+         margin-left: 25px;
+    right: -123px;
+    top: 57px;
+}
+.stats-5-circle,.stats-4-circle{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+}
+.stats-4-circle{
+        /* margin-left: 0px; */
+            right: -137px;
+    top: -49px;
+}
+.stats-5-circle{
+	left: 160px;
+    top: -50px;
+}
+
+
+.stats-8-circle{
+	left: 299px;
+    top: -57px;
+}
+.stats-1-row{
+	       top:-42px;
+    left: -13px;
+}
+.stats-2-row{
+   position: relative;
+    bottom: 30px;
+    right: -47px;
+    /* margin-top: 10px !important; */
+}
+.stats-7-row{
+               position: relative;
+    bottom:  25px;
+    left: -76px
+}
+.stats-6-row,.stats-3-row{
+          position: relative;
+    /* margin-top: 13px; */
+    top: 58px;
+}
+.stats-6-row{
+	    left: -102px;
+}
+.stats-3-row{
+    margin-left: 25px;
+    right: -83px;
+}
+.stats-5-row,.stats-4-row{
+       position: relative;
+    margin-top: 145px;
+    /* margin-left: 34px; */
+    top: -25px;
+
+}
+.stats-4-row{
+        /* margin-left: 0px; */
+       right: -97px;
+}
+.stats-5-row{
+	left:-59px;
+}
+.stats-8-row{
+	      top: -16px;
+    left: -15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

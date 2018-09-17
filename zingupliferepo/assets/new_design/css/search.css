@@ -1,0 +1,282 @@
+
+.banner-content {
+	background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+	bottom: 0;
+	/* padding: 0 80px; */
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 97;
+}	
+
+.banner-content form {
+	margin-bottom: 0;		
+}
+
+.new-banner-content .banner-content-inner {
+	padding: 5px 80px 2px;
+}
+
+.banner-content .row {
+	margin: 0px -2px;
+}
+
+.find-text {
+	text-align: right;
+}
+
+.location-field {
+	float: left;
+	padding: 0 2px;
+	width: 30%;
+}
+
+.banner-content p {
+	color: #dbdbdb;
+	font-size: 20px;
+	font-family: 'robotothin';
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}		
+
+.banner-content .find-text p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 0;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.banner-content-inner .new-style .location-field span.well-text, 
+.banner-content-inner .h-arrow, .banner-content-inner .new-style .location-field span {
+	font-size: 13px;
+	display: inline;
+	text-transform: none;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.banner-content-inner .new-style .location-field span {
+	font-size: 15px;
+	line-height: 48px;
+}
+
+.banner-content-inner span {
+	color: #fff;		
+}
+
+.banner-content-inner .new-style .h-arrow {
+	margin-top: 10px !important;
+	display: inline-block !important;
+	margin-left: 20px !important;
+	position: relative;
+	bottom: 13px;
+}
+
+.banner-content input, .banner-content select, .banner-content textarea {
+	background: transparent;
+	border: 1px solid #7D7D7D;
+	color: #9f9e9e;
+}
+
+.banner-content input {
+	height: auto;
+	line-height: normal;	
+	font-size: 12px;	
+}
+
+.banner-content-inner .new-style .location-field input {
+	width: 68%;
+	float: right;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #333;
+	margin-bottom: 0;
+	margin-top: 6px;
+	padding: 8px 22px;
+	box-shadow: none;
+}
+
+.new-style .location-mark {
+	text-align: left;
+	position: relative;
+}
+
+.new-style .location-mark:before {
+	content: "";
+	position: absolute;
+	background: rgba(0, 0, 0, 0) url("../image/location-icon2.png") no-repeat scroll 0 0;
+	top: 6px;
+	right: 67.5%;
+	width: 12px;
+	height: 23px;
+	padding: 8px;
+	left: auto;
+	padding: 7px;
+	background-position: center;
+	margin-top: 6px;
+}
+
+.banner-content-inner .new-style .location-field.location-mark span {
+	margin-left: 25px;
+}
+
+.banner-content-inner .new-style .location-field.location-mark input {
+	padding-left: 30px;
+	margin-right: 20px;
+}
+
+.location-button {
+	float: left;
+	padding: 0 2px;
+	width: 10%;
+}
+
+.new-style .location-button .button {
+	border-radius: 0;
+	margin: 0;
+	text-transform: none;
+	font-family: 'Roboto', sans-serif;
+	padding: 4px 8px;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 6px;
+	background: #009746 none repeat scroll 0 0 !important;
+	border: medium none;
+	width: 100%;
+	display: inline-block;
+	outline: none;
+	vertical-align: baseline;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .25s ease;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+.new-style .location-field input::-webkit-input-placeholder {
+   color: #333;
+   font-weight: 700;
+}
+
+.new-style .location-field input:-moz-placeholder { /* Firefox 18- */
+   color: #333;
+   font-weight: 700;
+}
+
+.new-style .location-field input::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+   font-weight: 700;
+}
+
+.new-style .location-field input:-ms-input-placeholder {  
+   color: #333;
+   font-weight: 700;
+}
+
+.new-style .location-button .button img {
+	vertical-align: middle;		
+}		
+
+/*15th april 2016*/
+
+.test {
+	display: flex;
+	-ms-display: flex;
+	-webkit-display: flex;
+	height: 272px;
+}
+
+.reviewBox {
+	width: 100%;
+}
+
+.serviceContent .reviewCard {
+		padding-bottom: 20px;
+}
+
+.test img {
+	max-height: 200px;
+}
+
+.rsShow span.messAge {
+	height: 38px;
+	display: inline-block;
+}
+
+#carousel-example-generic .carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  display: block;
+}
+#carousel-example-generic .carousel-inner > .active {
+  left: 0;
+}
+#carousel-example-generic .carousel-inner > .next,
+#carousel-example-generic .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#carousel-example-generic .carousel-inner > .next {
+  left: 100%;
+}
+#carousel-example-generic .carousel-inner > .prev {
+  left: -100%;
+}
+#carousel-example-generic .carousel-inner > .next.left,
+#carousel-example-generic .carousel-inner > .prev.right {
+  left: 0;
+}
+#carousel-example-generic .carousel-inner > .active.left {
+  left: -100%;
+}
+#carousel-example-generic .carousel-inner > .active.right {
+  left: 100%;
+}
+
+.cardView>ul>li {
+	width: 50%;
+}
+
+.cardView>ul>li>span {
+	width: 100%;
+	display: inline-block;
+}
+
+.ShareBox>ul>li {
+	padding-right: 20px !important;
+}
+
+.ShareBox>ul>li:nth-child(3) {
+	padding-left: 26px !important;
+}
+
+.viewDetailBox .ShareBox>ul {
+	border-top: 1px solid #cdcdcd;
+	overflow: hidden;
+	border-bottom: 1px solid #cdcdcd;
+	width: 100%;
+}
+
+.viewDetailBox .ShareBox>ul li {
+	border:0;
+}
+/* Added by vikrant*/
+.banner-content{
+    height: 65px;
+}
+.new-banner-content .banner-content-inner{
+    padding: 10px 80px 2px;
+}
+.banner-content .find-text p{
+    font-size: 24px;
+}
+/**/

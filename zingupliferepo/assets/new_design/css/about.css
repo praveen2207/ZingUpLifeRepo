@@ -1,0 +1,150 @@
+.about-body {
+	background-color: #fff;
+}
+
+
+.banner img {
+	width: 100%;
+}
+
+.zing-life h4,
+.zing-story h4,
+.zing-do h4,
+.zing-team h4,
+.zing-advice h4 {
+	color: #009746;
+	font-weight: 900;
+	margin:20px 0;
+	font-size: 20px;
+}
+
+.zing-story span {
+	color: #009746;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+.zing-story p {
+	font-size: 16px;
+}
+
+.zing-story,
+.zing-do,
+.zing-team,
+.zing-advice {
+	margin-top: 35px;
+}
+
+.zing-do h5 {
+	font-size: 16px;
+	color: #009746;
+}
+
+.zing-do ul {
+	padding-left:15px;;
+}
+
+.m-tp {
+	margin-top: 30px;
+}
+
+.zing-team {
+	font-size: 16px;
+}
+
+.zing-team span,
+.zing-advice span {
+	font-weight: bold;
+	display: block;
+}
+
+.zing-team ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.zing-team ul {
+	padding:0;
+	margin-bottom: 35px;
+}
+
+.zing-team .col-md-3 > img {
+	width: 150px;
+	
+}
+
+.zing-team ul li:last-child {
+	margin-right: 0;
+}
+
+.zing-team p {
+	margin-bottom: 5px;;
+}
+
+p.spl-text {
+	font-size: 14px;
+}
+
+.zing-advice .col-md-3 > img {
+	margin: 10px 0;
+	width:100px;
+}
+
+.zing-advice {
+	margin-bottom: 30px;
+}
+
+/*--- media queries ---*/
+
+@media (max-width: 767px) {
+	.zing-story .col-sm-4 {
+		margin-bottom: 20px;	
+	}
+	
+	.zing-do .row .col-sm-4:first-child {
+		width: 224px;
+		margin: 20px auto;
+	}
+	
+	.zing-do .row .col-sm-4:last-child {
+		width: 290px;
+		margin:20px auto;
+	}
+
+	.zing-do .row .col-sm-4 img {
+		width: 300px;	
+	}	
+	
+}
+
+@media (max-width: 480px) {
+	.banner img {
+		height: 80px;
+	}
+}
+
+@media (max-width: 390px) {
+	.banner img {
+		height: 65px;
+	}
+}
+
+
+.embed-container { 
+	position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+	} 
+.embed-container
+ iframe, 
+ .embed-container object, 
+ .embed-container embed { 
+ 	position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+ 	}
+
+    	
+
+/*.zing-team .col-md-3 > img {
+	width: 200px;
+	height: 200px;
+	
+}*/

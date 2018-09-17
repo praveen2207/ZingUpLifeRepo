@@ -1,0 +1,245 @@
+$(document).ready(function () {
+
+    $('#offerings_locations').hide();
+
+    $('#offering_vendors').hide();
+
+    var base_url = 'http://design1.nuvodev.com/client/zingup/';
+
+    //var base_url = 'http://localhost/zing/';
+
+    var locations_count = '';
+
+    var error = 'No Record Found';
+
+    $('body').on('click', '.services a', function () {
+
+        var service_id = $(this).attr('class');
+
+        var location_id = $(this).attr('id');
+
+        if (location_id == '')
+
+        {
+
+            $.ajax({
+
+                type: 'POST',
+
+                url: base_url + 'get_locations_by_service',
+
+                data: {service_id: service_id},
+
+                dataType: "json",
+
+                success: function (data) {
+
+                    var locations_count = data['locations'].length;
+
+                    $('#offerings').hide();
+
+                    $('#offering_vendors').hide();
+
+                    $('#offerings_locations').show();
+
+                    if (locations_count > 0) {
+
+                        $('#offerings_locations').append('<h3 class="con-offer">' + data['services'].service_name + '</h3>');
+
+                        $.each(data['locations'], function (key, val) {
+
+                            $('#offerings_locations').append('<div class="span4 services">\n\
+
+                                            <a id="' + val.suburb + '" class="' + service_id + '" href="">\n\
+
+                                            <h2>' + val.area_name + '</h2>\n\
+
+                                            </a>\n\
+
+                                            </div>');
+
+                        });
+
+                    } else {
+
+                        $('#offerings_locations').append('<div class="row con-row error-row"><p class="page-error">' + error + '</p><a href="" id="services_back" class="back">Back</a></div>');
+
+                    }
+
+                    $('body').on('click', '#services_back', function () {
+
+                        $('#offerings').show();
+
+                        $('#offering_vendors').hide();
+
+                        $('#offerings_locations').hide();
+
+                        return false;
+
+                    });
+
+                }
+
+            });
+
+        } else
+
+        {
+
+            $.ajax({
+
+                type: 'POST',
+
+                url: base_url + 'getVendor',
+
+                data: {service_id: service_id, location_id: location_id},
+
+                dataType: "json",
+
+                success: function (data) {
+
+                    var vendors_count = data['business_providers'].length;
+
+                    $('#offerings').hide();
+
+                    $('#offering_vendors').show();
+
+                    $('#offerings_locations').hide();
+
+                    if (vendors_count > 0) {
+
+                        $('#offering_vendors').append('<h5 class="category">' + data['services'].service_name + '-' + data['location'].suburb + '</h5>');
+
+                        if (vendors_count == 1) {
+
+                            $.each(data['business_providers'], function (key, val) {
+
+                                $('#offering_vendors').append('<div class="row vendor-row">\n\
+
+		                                   <div class="vendor-image">\n\
+
+	                                           <a href="' + base_url + 'vendorDetails/' + val['details'].id + '"><img src="' + data['logo'] + val['details'].id + '/' + val['details'].logo + '"></a>\n\
+
+		                                     </div>\n\
+
+                                                       </div>');
+
+                            });
+
+                        } else
+
+                        {
+
+                            var count = 0;
+
+                            var column_class = '';
+
+                            var row_class = '';
+
+                            $('#offering_vendors').append('<div class="row vendor-trt-row" id="multiple_vendors">');
+
+                            $.each(data['business_providers'], function (key, val) {
+
+                                count++;
+
+                                var remainder = count % 3;
+
+                                if (remainder == 0) {
+
+                                    column_class = 'span-last';
+
+                                } else
+
+                                {
+
+                                    column_class = '';
+
+                                }
+
+                                if (count > 3)
+
+                                {
+
+                                    row_class = 'span-sec row-class-left';
+
+                                } else
+
+                                {
+
+                                    row_class = '';
+
+                                }
+
+                                $('#multiple_vendors').append('<div class="' + row_class + '">\n\
+
+              <div class="span3 ' + column_class + '">\n\
+
+                  <a class="vendor-link" href="' + base_url + 'vendorDetails/' + val['details'].id + '"><img src="' + data['logo'] + val['details'].id + '/' + val['details'].logo + '"></a>\n\
+
+              </div>\n\
+
+          </div> ');
+
+                            });
+
+                        }
+
+                    } else
+
+                    {
+
+                        $('#offering_vendors').append('<div class="row con-row error-row"><p class="page-error">' + error + '</p><a href="" id="vendors_back" class="back">Back</a></div>');
+
+                    }
+
+                    $('body').on('click', '#vendors_back', function () {
+
+                        $('#offerings').hide();
+
+                        $('#offering_vendors').hide();
+
+                        $('#offerings_locations').show();
+
+                        return false;
+
+                    });
+
+                }
+
+            });
+
+        }
+
+        return false;
+
+    });
+
+    
+
+    $('body').on('click', '.editnamesubmit', function () {
+
+       var name = $('.name').val();
+
+            $.ajax({
+
+                type: 'POST',
+
+                url: base_url + 'update_profile',
+
+                data: {name: name},
+
+                dataType: "html",
+
+                success: function (data) {
+
+                    }
+
+                });
+
+        
+
+    
+
+});
+
+});
