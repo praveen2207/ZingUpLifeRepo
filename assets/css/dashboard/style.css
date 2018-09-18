@@ -488,10 +488,19 @@ padding-left: 0px;
     left: -15px;
 }
 }
+.mobileInterface{
+    display:none;
+}
 
 
-
-
+@media screen and (max-width:899px ) {
+    .mobileInterface{
+        display: block;
+    }
+    .webInterface{
+        display: none;
+    }
+}
 
 
 
